@@ -46,9 +46,11 @@ def serve_forever():
 
     signal.signal(signal.SIGCHLD, grim_reaper)
 
+    clients = []
     while True:
         try:
             client_connection, client_address = listen_socket.accept()
+            clients.append(client_connection)
         except IOError as e:
             code, msg = e.args
             # restart 'accept' if it was interrupted
@@ -65,6 +67,7 @@ def serve_forever():
             os._exit(0)
         else:  # parent
             client_connection.close()  # close parent copy and loop over
+            print(len(clients))
 
 if __name__ == '__main__':
     serve_forever()
