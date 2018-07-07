@@ -10,6 +10,6 @@
 
 ## tensorflow
 
-- TensorFlow中RNN实现的正确打开方式 ([article](https://blog.csdn.net/starzhou/article/details/77848156), [code]())
+- TensorFlow中RNN实现的正确打开方式 ([article](https://blog.csdn.net/starzhou/article/details/77848156), [code](https://github.com/gaoxinge/machine-learning/tree/master/RNN%20Reference/1))
 
 ## 时间序列
