@@ -4,17 +4,21 @@ import numpy as np
 class Graph:
 
     def __init__(self):
-        self.operation = []
+        self.operations = []
         self.placeholders = []
         self.variables = []
         self.constants = []
+        
+    def as_default(self):
+        global _default_graph
+        _default_graph = self
         
 
 class Operation:
     
     def __init__(self, input_nodes=None):
         self.input_nodes = input_nodes
-        self.output = None
+        _default_graph.operations.append(self)
     
     def forward(self):
         pass
@@ -69,12 +73,14 @@ class Placeholder:
     
     def __init__(self):
         self.value = None
-        
+        _default_graph.placeholders.append(self)
+
 
 class Constant:
     
-    def __init__(self):
+    def __init__(self, value=None):
         self.__value = value
+        _default_graph.placeholders.append(self)
         
     @property
     def value(self):
@@ -89,6 +95,7 @@ class Variable:
 
     def __init__(self, initial_value=None):
         self.value = initial_value
+        _default_graph.variables.append(self)
 
         
 def topology_sort(operation):
