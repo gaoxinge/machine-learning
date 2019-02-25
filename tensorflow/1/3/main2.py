@@ -10,7 +10,7 @@ n_epochs = 30
 
 
 # step1: read data
-minst = input_data.read_data_sets('/data/mnist', one_hot=True)
+mnist = input_data.read_data_sets('./mnist', one_hot=True)
 
 
 # step2: create placeholders
@@ -28,7 +28,7 @@ logits = tf.matmul(X, w) + b
 
 
 # step5: create loss
-entropy = tf.nn.softmax_cross_entropy_with_logits(logits, Y, name='loss')
+entropy = tf.nn.softmax_cross_entropy_with_logits_v2(logits=logits, labels=Y, name='loss')
 loss = tf.reduce_mean(entropy)
 
 
@@ -65,5 +65,5 @@ with tf.Session() as sess:
         for i in range(n_batches):
             X_batch, Y_batch = mnist.test.next_batch(batch_size)
             accuracy_batch = sess.run([accuracy], feed_dict={X: X_batch, Y: Y_batch})
-            total_correct_preds += accuracy_batch
+            total_correct_preds += accuracy_batch[0]
         print('Accuracy {0}'.format(total_correct_preds / mnist.test.num_examples))
