@@ -1,2 +1,2 @@
-- [tfgfile]()
-- [tfrecord]()
+- [tfgfile](https://github.com/gaoxinge/machine-learning/tree/master/tensorflow/other/tfgfile)
+- [tfrecord](https://github.com/gaoxinge/machine-learning/tree/master/tensorflow/other/tfrecord)
