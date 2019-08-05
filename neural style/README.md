@@ -2,7 +2,10 @@
 
 - [图像风格化算法综述三部曲](https://zhuanlan.zhihu.com/c_185430820)
 - [深度学习实践：使用Tensorflow实现快速风格迁移](https://zhuanlan.zhihu.com/p/24383274)
-- [anishathalye/neural-style](https://github.com/anishathalye/neural-style)
+
+## [anishathalye/neural-style](https://github.com/anishathalye/neural-style)
+
+### run
 
 ```
 > docker run -it --name gxg -v /dev/shm:/dev/shm -v /home/user/gxg/:/gxg/ nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04 bash
@@ -23,7 +26,11 @@
 > python3 neural_style.py --content /gxg/input/cat.jpg --styles /gxg/style/star.jpg --output /gxg/output/cat.jpg --style-layer-weight-exp 0.2
 ```
 
-- [lengstrom/fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)
+### result
+
+## [lengstrom/fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)
+
+### run
 
 ```
 > docker run -it --name gxg -v /dev/shm:/dev/shm -v /home/user/gxg/:/gxg/ nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04 bash
@@ -65,3 +72,5 @@ gxg
 > python3 evaluate.py --checkpoint /gxg/model/wave.ckpt --in-path /gxg/input/ --out-path /gxg/output/
 > python3 evaluate.py --checkpoint /gxg/model/wreck.ckpt --in-path /gxg/input/ --out-path /gxg/output/
 ```
+
+### result
