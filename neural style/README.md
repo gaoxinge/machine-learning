@@ -26,10 +26,6 @@
 > python3 neural_style.py --content /gxg/input/cat.jpg --styles /gxg/style/star.jpg --output /gxg/output/cat.jpg --style-layer-weight-exp 0.2
 ```
 
-### result
-
-![cat](https://github.com/gaoxinge/machine-learning/blob/master/neural%20style/images/cat.jpg)
-
 ## [lengstrom/fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)
 
 ### run
@@ -74,11 +70,3 @@ gxg
 > python3 evaluate.py --checkpoint /gxg/model/wave.ckpt --in-path /gxg/input/ --out-path /gxg/output/
 > python3 evaluate.py --checkpoint /gxg/model/wreck.ckpt --in-path /gxg/input/ --out-path /gxg/output/
 ```
-
-### result
-
-![1](https://github.com/gaoxinge/machine-learning/blob/master/neural%20style/images/1.jpg)
-![2](https://github.com/gaoxinge/machine-learning/blob/master/neural%20style/images/2.jpg)
-![3](https://github.com/gaoxinge/machine-learning/blob/master/neural%20style/images/3.jpg)
-![4](https://github.com/gaoxinge/machine-learning/blob/master/neural%20style/images/4.jpg)
-![5](https://github.com/gaoxinge/machine-learning/blob/master/neural%20style/images/5.jpg)
