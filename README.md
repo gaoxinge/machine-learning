@@ -14,3 +14,4 @@ This repository provides codes for the essay of machine learning.
 - onnx ([code](https://github.com/gaoxinge/machine-learning/tree/master/onnx))
 - RNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/RNN%20Reference))
 - nerual style ([code](https://github.com/gaoxinge/machine-learning/tree/master/neural%20style))
+- gan ([code](https://github.com/gaoxinge/machine-learning/tree/master/gan))
