@@ -12,6 +12,7 @@ This repository provides codes for the essay of machine learning.
 - torch ([code](https://github.com/gaoxinge/machine-learning/tree/master/torch))
 - darknet ([code](https://github.com/gaoxinge/machine-learning/tree/master/darknet))
 - onnx ([code](https://github.com/gaoxinge/machine-learning/tree/master/onnx))
+- mnist ([code](https://github.com/gaoxinge/machine-learning/tree/master/mnist))
 - RNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/RNN%20Reference))
 - nerual style ([code](https://github.com/gaoxinge/machine-learning/tree/master/neural%20style))
 - gan ([code](https://github.com/gaoxinge/machine-learning/tree/master/gan))
