@@ -17,4 +17,3 @@ model.add(Dense(10, input_dim=784, activation=tf.nn.softmax))
 model.compile(optimizer=Adam(0.001), loss=sparse_categorical_crossentropy, metrics=[sparse_categorical_accuracy])
 model.fit(x=x_train, y=y_train, epochs=10)
 model.evaluate(x=x_test, y=y_test)
-
