@@ -1,3 +1,6 @@
+- programming language
+  - [halide/Halide](https://github.com/halide/Halide)
+  - [lift-project/lift](https://github.com/lift-project/lift)
 - mobile
   - [alibaba/MNN](https://github.com/alibaba/MNN)
   - [Tencent/ncnn](https://github.com/Tencent/ncnn)
