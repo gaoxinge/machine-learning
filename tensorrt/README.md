@@ -123,3 +123,5 @@ in-memory model -------> model ---------> model: uff/onnx -----------------> in-
 - [TensorRT安装及使用教程](https://blog.csdn.net/zong596568821xp/article/details/86077553)
 - [install and configure TensorRT 4 on ubuntu 16.04](https://kezunlin.me/post/dacc4196/)
 - [高性能深度学习支持引擎实战——TensorRT](https://zhuanlan.zhihu.com/p/35657027)
+- [TensorRT](https://arleyzhang.github.io/archives/)
+- [使用TensorRT加速GPU上的TensorFlow推理（翻译）](https://www.jianshu.com/p/dd2cfc33b437)
