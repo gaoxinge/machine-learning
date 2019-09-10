@@ -109,7 +109,9 @@ Prediction: 3
 ## architecture
 
 ```
-                 train          convert                    tensorrt parser                     tensorrt optimize                    tensorrt inference
+                                                                                 plugin
+                                                                                   |
+                 train          convert                    tensorrt parser         v           tensorrt optimize                    tensorrt inference
 in-memory model -------> model ---------> model: uff/onnx -----------------> in-memory model --------------------> in-memory model --------------------> output 
                                                                                                                           ^
                                                                                                                           |
