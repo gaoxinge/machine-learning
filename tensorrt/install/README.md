@@ -91,6 +91,22 @@ $ ./sample_mnist
 - [17. Introduction To Importing Caffe, TensorFlow And ONNX Models Into TensorRT Using Python](https://docs.nvidia.com/deeplearning/sdk/tensorrt-sample-support-guide/index.html#introductory_parser_samples)
 
 ```
+$ cd /opt/TensorRT-5.1.5.0/samples/python/introductory_parser_samples
 $ python3 onnx_resnet50.py -d /opt/TensorRT-5.1.5.0/data/
 Correctly recognized /opt/TensorRT-5.1.5.0/data/resnet50/reflex_camera.jpeg as reflex camera
 ```
+
+- [18. “Hello World” For TensorRT Using TensorFlow And Python](https://docs.nvidia.com/deeplearning/sdk/tensorrt-sample-support-guide/index.html#end_to_end_tensorflow_mnist)
+
+```
+$ cd /opt/TensorRT-5.1.5.0/samples/python/end_to_end_tensorflow_mnist
+$ convert-to-uff models/lenet5.pb
+$ python3 sample.py -d /opt/TensorRT-5.1.5.0/data/
+Test Case: 3
+Prediction: 3
+```
+
+## reference
+
+- [TensorRT安装及使用教程](https://blog.csdn.net/zong596568821xp/article/details/86077553)
+- [install and configure TensorRT 4 on ubuntu 16.04](https://kezunlin.me/post/dacc4196/)
