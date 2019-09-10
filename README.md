@@ -11,6 +11,7 @@ This repository provides codes for the essay of machine learning.
 - tensorflow ([code](https://github.com/gaoxinge/machine-learning/tree/master/tensorflow))
 - torch ([code](https://github.com/gaoxinge/machine-learning/tree/master/torch))
 - onnx ([code](https://github.com/gaoxinge/machine-learning/tree/master/onnx))
+- tensorrt ([code](https://github.com/gaoxinge/machine-learning/tree/master/tensorrt))
 - inference ([code](https://github.com/gaoxinge/machine-learning/tree/master/inference))
 - mnist ([code](https://github.com/gaoxinge/machine-learning/tree/master/mnist))
 - RNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/RNN%20Reference))
