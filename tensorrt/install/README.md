@@ -106,7 +106,18 @@ Test Case: 3
 Prediction: 3
 ```
 
+## architecture
+
+```
+                 train          convert                    tensorrt parser                     tensorrt optimize                    tensorrt inference
+in-memory model -------> model ---------> model: uff/onnx -----------------> in-memory model --------------------> in-memory model --------------------> output 
+                                                                                                                          ^
+                                                                                                                          |
+                                                                                                                        input
+```
+
 ## reference
 
 - [TensorRT安装及使用教程](https://blog.csdn.net/zong596568821xp/article/details/86077553)
 - [install and configure TensorRT 4 on ubuntu 16.04](https://kezunlin.me/post/dacc4196/)
+- [高性能深度学习支持引擎实战——TensorRT](https://zhuanlan.zhihu.com/p/35657027)
