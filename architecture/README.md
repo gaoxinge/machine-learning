@@ -1,6 +1,16 @@
 ## architecture
 
 ```
+                                                             plugin
+                                                               |
+                 train          convert         parser         v          optimize                    inference
+in-memory model -------> model ---------> onnx --------> in-memory model ----------> in-memory model -----------> output 
+                                                                                            ^
+                                                                                            |
+                                                                                          input
+```
+
+```
 +-------------------------------+
 |python tensor library          |
 +-------------------------------+
