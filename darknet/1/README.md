@@ -141,4 +141,30 @@ data/dog.jpg: Predicted in 0.250622 seconds.
 
 ## Train a Classifier on CIFAR-10
 
+```
+$ cd data
+$ wget https://pjreddie.com/media/files/cifar.tgz
+$ tar xzf cifar.tgz
+$ ls cifar
+labels.txt  test  train
+$ cd cifar
+$ find `pwd`/train -name \*.png > train.list
+$ find `pwd`/test -name \*.png > test.list
+$ touch cifar.data
+$ cd ../..
+
+classes=10
+train  = data/cifar/train.list
+valid  = data/cifar/test.list
+labels = data/cifar/labels.txt
+backup = backup/
+top=2
+```
+
+```
+./darknet classifier train train/data/cifar/cifar.data cfg/cifar_small.cfg
+./darknet classifier train train/data/cifar/cifar.data cfg/cifar_small.cfg backup/cifar_small.backup
+./darknet classifier valid train/data/cifar/cifar.data cfg/cifar_small.cfg backup/cifar_small.backup
+```
+
 ## Hardware Guide: Neural Networks on GPUs
