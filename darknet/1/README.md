@@ -4,6 +4,10 @@
 
 ## Installing Darknet
 
+- set `GPU=1` and `OPENCV=1` in Makefile
+- run `make`
+- run `./darknet`
+
 ## YOLO: Real-Time Object Detection
 
 ### yolov2
