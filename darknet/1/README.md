@@ -15,11 +15,10 @@
 ### yolov2-tiny
 
 ```
-$ mkdir weights
-$ cd weights
+$ cd backup
 $ wget https://pjreddie.com/media/files/yolov2-tiny.weights
 $ cd ..
-$ ./darknet detect cfg/yolov2-tiny.cfg weights/yolov2-tiny.weights data/dog.jpg
+$ ./darknet detect cfg/yolov2-tiny.cfg backup/yolov2-tiny.weights data/dog.jpg
 layer     filters    size              input                output
     0 conv     16  3 x 3 / 1   416 x 416 x   3   ->   416 x 416 x  16  0.150 BFLOPs
     1 max          2 x 2 / 2   416 x 416 x  16   ->   208 x 208 x  16
@@ -38,7 +37,7 @@ layer     filters    size              input                output
    14 conv    425  1 x 1 / 1    13 x  13 x 512   ->    13 x  13 x 425  0.074 BFLOPs
    15 detection
 mask_scale: Using default '1.000000'
-Loading weights from weights/yolov2-tiny.weights...Done!
+Loading weights from backup/yolov2-tiny.weights...Done!
 data/dog.jpg: Predicted in 1.282148 seconds.
 dog: 82%
 car: 74%
@@ -50,11 +49,10 @@ bicycle: 59%
 ### yolov3-tiny
 
 ```
-$ mkdir weights
-$ cd weights
+$ cd backup
 $ wget https://pjreddie.com/media/files/yolov3-tiny.weights
 $ cd ..
-$ ./darknet detect cfg/yolov3-tiny.cfg weights/yolov3-tiny.weights data/dog.jpg
+$ ./darknet detect cfg/yolov3-tiny.cfg backup/yolov3-tiny.weights data/dog.jpg
 layer     filters    size              input                output
     0 conv     16  3 x 3 / 1   416 x 416 x   3   ->   416 x 416 x  16  0.150 BFLOPs
     1 max          2 x 2 / 2   416 x 416 x  16   ->   208 x 208 x  16
@@ -80,7 +78,7 @@ layer     filters    size              input                output
    21 conv    256  3 x 3 / 1    26 x  26 x 384   ->    26 x  26 x 256  1.196 BFLOPs
    22 conv    255  1 x 1 / 1    26 x  26 x 256   ->    26 x  26 x 255  0.088 BFLOPs
    23 yolo
-Loading weights from weights/yolov3-tiny.weights...Done!
+Loading weights from backup/yolov3-tiny.weights...Done!
 data/dog.jpg: Predicted in 1.278319 seconds.
 dog: 57%
 car: 52%
@@ -102,11 +100,10 @@ bicycle: 59%
 ## Tiny Darknet
 
 ```
-$ mkdir weights
-$ cd weights
+$ cd backup
 $ wget https://pjreddie.com/media/files/tiny.weights
 $ cd ..
-$ ./darknet classify cfg/tiny.cfg weights/tiny.weights data/dog.jpg
+$ ./darknet classify cfg/tiny.cfg backup/tiny.weights data/dog.jpg
 layer     filters    size              input                output
     0 conv     16  3 x 3 / 1   224 x 224 x   3   ->   224 x 224 x  16  0.043 BFLOPs
     1 max          2 x 2 / 2   224 x 224 x  16   ->   112 x 112 x  16
@@ -130,7 +127,7 @@ layer     filters    size              input                output
    19 conv   1000  1 x 1 / 1    14 x  14 x 128   ->    14 x  14 x1000  0.050 BFLOPs
    20 avg                       14 x  14 x1000   ->  1000
    21 softmax                                        1000
-Loading weights from weights/tiny.weights...Done!
+Loading weights from backup/tiny.weights...Done!
 data/dog.jpg: Predicted in 0.250622 seconds.
 14.51%: malamute
  6.09%: Newfoundland
@@ -162,9 +159,9 @@ top=2
 ```
 
 ```
-./darknet classifier train train/data/cifar/cifar.data cfg/cifar_small.cfg
-./darknet classifier train train/data/cifar/cifar.data cfg/cifar_small.cfg backup/cifar_small.backup
-./darknet classifier valid train/data/cifar/cifar.data cfg/cifar_small.cfg backup/cifar_small.backup
+./darknet classifier train data/cifar/cifar.data cfg/cifar_small.cfg
+./darknet classifier train data/cifar/cifar.data cfg/cifar_small.cfg backup/cifar_small.backup
+./darknet classifier valid data/cifar/cifar.data cfg/cifar_small.cfg backup/cifar_small.backup
 ```
 
 ## Hardware Guide: Neural Networks on GPUs
