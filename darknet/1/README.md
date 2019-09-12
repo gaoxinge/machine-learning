@@ -147,8 +147,13 @@ labels.txt  test  train
 $ cd cifar
 $ find `pwd`/train -name \*.png > train.list
 $ find `pwd`/test -name \*.png > test.list
-$ touch cifar.data
 $ cd ../..
+```
+
+```
+$ cd cfg
+$ touch cifar.data
+$ cd ..
 
 classes=10
 train  = data/cifar/train.list
@@ -159,9 +164,9 @@ top=2
 ```
 
 ```
-./darknet classifier train data/cifar/cifar.data cfg/cifar_small.cfg
-./darknet classifier train data/cifar/cifar.data cfg/cifar_small.cfg backup/cifar_small.backup
-./darknet classifier valid data/cifar/cifar.data cfg/cifar_small.cfg backup/cifar_small.backup
+./darknet classifier train cfg/cifar.data cfg/cifar_small.cfg
+./darknet classifier train cfg/cifar.data cfg/cifar_small.cfg backup/cifar_small.backup
+./darknet classifier valid cfg/cifar.data cfg/cifar_small.cfg backup/cifar_small.backup
 ```
 
 ## Hardware Guide: Neural Networks on GPUs
