@@ -10,6 +10,7 @@
 - 【重磅】卷积神经网络为什么能称霸计算机视觉领域？ ([article](https://zhuanlan.zhihu.com/p/36160648))
 - [总结]卷积神经网络发展历程 ([article](https://zhuanlan.zhihu.com/p/76275427))
 - 卷积神经网络（CNN）的结构设计都有哪些思想？ ([article](https://www.zhihu.com/question/312556066/answer/600228264))
+- 变形卷积核、可分离卷积？卷积神经网络中十大拍案叫绝的操作。 ([article](https://zhuanlan.zhihu.com/p/28749411))
 - YJango的卷积神经网络——介绍 ([article](https://zhuanlan.zhihu.com/p/27642620))
 - 「七夕的礼物」: 一日搞懂卷积神经网络 ([article](https://zhuanlan.zhihu.com/p/28863709))
 - 94页论文综述卷积神经网络：从基础技术到研究前景 ([article](https://zhuanlan.zhihu.com/p/35388569))
