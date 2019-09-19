@@ -11,6 +11,8 @@
 - [总结]卷积神经网络发展历程 ([article](https://zhuanlan.zhihu.com/p/76275427))
 - 卷积神经网络（CNN）的结构设计都有哪些思想？ ([article](https://www.zhihu.com/question/312556066/answer/600228264))
 - YJango的卷积神经网络——介绍 ([article](https://zhuanlan.zhihu.com/p/27642620))
+- 「七夕的礼物」: 一日搞懂卷积神经网络 ([article](https://zhuanlan.zhihu.com/p/28863709))
 - 94页论文综述卷积神经网络：从基础技术到研究前景 ([article](https://zhuanlan.zhihu.com/p/35388569))
+- 卷积神经网络CNN完全指南终极版（一） ([article](https://zhuanlan.zhihu.com/p/27908027))
 - 卷积神经网络（CNN）综述 ([article](https://zhuanlan.zhihu.com/p/51678022))
 - 卷积神经网络（CNN）详解 ([article](https://zhuanlan.zhihu.com/p/47184529))
