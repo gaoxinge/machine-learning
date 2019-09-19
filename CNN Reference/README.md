@@ -17,3 +17,16 @@
 - 卷积神经网络CNN完全指南终极版（一） ([article](https://zhuanlan.zhihu.com/p/27908027))
 - 卷积神经网络（CNN）综述 ([article](https://zhuanlan.zhihu.com/p/51678022))
 - 卷积神经网络（CNN）详解 ([article](https://zhuanlan.zhihu.com/p/47184529))
+
+## LeNet
+
+- LeNet-5, convolutional neural networks ([article](http://yann.lecun.com/exdb/lenet/))
+- 6.6. Convolutional Neural Networks (LeNet) ([article](https://www.d2l.ai/chapter_convolutional-neural-networks/lenet.html))
+- LeNet – Convolutional Neural Network in Python ([article](https://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/))
+- LeNet-5 – A Classic CNN Architecture ([article](https://engmrk.com/lenet-5-a-classic-cnn-architecture/))
+- a convolutional neural network in 11 lines ([article](https://adventuresinmachinelearning.com/keras-tutorial-cnn-11-lines/))
+- LeNet-5 in 9 lines of code using Keras ([article](https://medium.com/@mgazar/lenet-5-in-9-lines-of-code-using-keras-ac99294c8086))
+- Keras CNN (inspired by LeNet-5) ([article](https://www.kaggle.com/ftence/keras-cnn-inspired-by-lenet-5))
+- LeNet-5 CNN with Keras - 99.48% ([article](https://www.kaggle.com/curiousprogrammer/lenet-5-cnn-with-keras-99-48))
+- matthewrenze/lenet-on-mnist-with-keras-and-tensorflow-in-python ([article](https://github.com/matthewrenze/lenet-on-mnist-with-keras-and-tensorflow-in-python))
+- TaavishThaman/LeNet-5-with-Keras ([article](https://github.com/TaavishThaman/LeNet-5-with-Keras))
