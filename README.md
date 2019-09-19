@@ -16,6 +16,7 @@ This repository provides codes for the essay of machine learning.
 - architecture ([code](https://github.com/gaoxinge/machine-learning/tree/master/architecture))
 - mnist ([code](https://github.com/gaoxinge/machine-learning/tree/master/mnist))
 - cifar ([code](https://github.com/gaoxinge/machine-learning/tree/master/cifar))
+- CNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/CNN%20Reference))
 - RNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/RNN%20Reference))
 - nerual style ([code](https://github.com/gaoxinge/machine-learning/tree/master/neural%20style))
 - gan ([code](https://github.com/gaoxinge/machine-learning/tree/master/gan))
