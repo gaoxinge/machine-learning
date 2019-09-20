@@ -30,3 +30,15 @@
 - LeNet-5 CNN with Keras - 99.48% ([article](https://www.kaggle.com/curiousprogrammer/lenet-5-cnn-with-keras-99-48))
 - matthewrenze/lenet-on-mnist-with-keras-and-tensorflow-in-python ([article](https://github.com/matthewrenze/lenet-on-mnist-with-keras-and-tensorflow-in-python))
 - TaavishThaman/LeNet-5-with-Keras ([article](https://github.com/TaavishThaman/LeNet-5-with-Keras))
+
+## AlexNet
+
+- ImageNet Classification with Deep Convolutional Neural Networks ([article](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf))
+- ImageNet Classification with Deep Convolutional Neural Networks ([article](http://vision.stanford.edu/teaching/cs231b_spring1415/slides/alexnet_tugce_kyunghee.pdf))
+- A Walk-through of AlexNet ([article](https://medium.com/@smallfishbigsea/a-walk-through-of-alexnet-6cbd137a5637))
+- AlexNet: A Brief Review ([article](https://medium.com/ai-research-lab-kampala/alexnet-a-brief-review-14979ce7cc84))
+- AlexNet ([article](http://dandxy89.github.io/ImageModels/alexnet/))
+- AlexNet Implementation Using Keras ([article](https://engmrk.com/alexnet-implementation-using-keras/))
+- Building AlexNet with Keras ([article](https://www.mydatahack.com/building-alexnet-with-keras/))
+- keras-deepcv/models/classification/alexnet.py ([article](https://github.com/eweill/keras-deepcv/blob/master/models/classification/alexnet.py))
+- benchmarks/other-wrappers/keras.alexnet.py ([article](https://github.com/tensorpack/benchmarks/blob/master/other-wrappers/keras.alexnet.py))
