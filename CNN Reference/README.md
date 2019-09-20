@@ -4,6 +4,9 @@
 
 - An intuitive guide to Convolutional Neural Networks ([article](https://www.freecodecamp.org/news/an-intuitive-guide-to-convolutional-neural-networks-260c2de0a050/))
 - The best explanation of Convolutional Neural Networks on the Internet! ([article](https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks-on-the-internet-fbb8b1ad5df8))
+- A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way ([article](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53))
+- A Beginner's Guide to Convolutional Neural Networks (CNNs) ([article](https://skymind.ai/wiki/convolutional-network))
+- An Intuitive Explanation of Convolutional Neural Networks ([article](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/))
 
 ## 知乎
 
