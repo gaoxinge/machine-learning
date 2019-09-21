@@ -5,3 +5,5 @@
 |lenet|49.51%|
 |lenet-refine|62.23%|
 |alexnet||
+|vgg16||
+|vgg19||
