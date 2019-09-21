@@ -7,6 +7,9 @@
 - A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way ([article](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53))
 - A Beginner's Guide to Convolutional Neural Networks (CNNs) ([article](https://skymind.ai/wiki/convolutional-network))
 - An Intuitive Explanation of Convolutional Neural Networks ([article](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/))
+- A Beginner's Guide To Understanding Convolutional Neural Networks ([article](https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/))
+- A Beginner's Guide To Understanding Convolutional Neural Networks Part 2 ([article](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks-Part-2/))
+- The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3) ([article](https://adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html))
 
 ## 知乎
 
@@ -16,6 +19,7 @@
 - 变形卷积核、可分离卷积？卷积神经网络中十大拍案叫绝的操作。 ([article](https://zhuanlan.zhihu.com/p/28749411))
 - YJango的卷积神经网络——介绍 ([article](https://zhuanlan.zhihu.com/p/27642620))
 - 「七夕的礼物」: 一日搞懂卷积神经网络 ([article](https://zhuanlan.zhihu.com/p/28863709))
+- CS231n课程笔记翻译：卷积神经网络笔记 ([article](https://zhuanlan.zhihu.com/p/22038289))
 - 94页论文综述卷积神经网络：从基础技术到研究前景 ([article](https://zhuanlan.zhihu.com/p/35388569))
 - 卷积神经网络CNN完全指南终极版（一） ([article](https://zhuanlan.zhihu.com/p/27908027))
 - 卷积神经网络（CNN）综述 ([article](https://zhuanlan.zhihu.com/p/51678022))
