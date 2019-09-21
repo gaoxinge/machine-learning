@@ -49,3 +49,11 @@
 - Building AlexNet with Keras ([article](https://www.mydatahack.com/building-alexnet-with-keras/))
 - keras-deepcv/models/classification/alexnet.py ([article](https://github.com/eweill/keras-deepcv/blob/master/models/classification/alexnet.py))
 - benchmarks/other-wrappers/keras.alexnet.py ([article](https://github.com/tensorpack/benchmarks/blob/master/other-wrappers/keras.alexnet.py))
+
+## VGG
+
+- cs231n: Convolutional Neural Networks ([article](http://cs231n.github.io/convolutional-networks/))
+- cs231n: CNN Architecture ([article](http://cs231n.stanford.edu/slides/2019/cs231n_2019_lecture09.pdf))
+- VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION ([article](https://arxiv.org/pdf/1409.1556.pdf))
+- keras-applications/keras_applications/vgg16.py ([article](https://github.com/keras-team/keras-applications/blob/master/keras_applications/vgg16.py))
+- baraldilorenzo/readme.md ([article](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3))
