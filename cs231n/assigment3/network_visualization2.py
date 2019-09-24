@@ -47,15 +47,11 @@ def create_class_visualization(target_y, model, **kwargs):
     X = 255 * np.random.rand(224, 224, 3)
     X = preprocess_image(X)[None]
 
-    x = tf.placeholder(tf.float32, shape=[None, 224, 224, 3])
-    loss = model(x)[0, target_y] - l2_reg * tf.nn.l2_loss(x)
-    grad = tf.gradients(loss, x)
-
     sess = get_session()
     for t in range(num_iterations):
         ox, oy = np.random.randint(0, max_jitter, 2)
         X = jitter(X, ox, oy)
-        print(t) 
+
         Y = tf.convert_to_tensor(X)
         with tf.GradientTape() as tape:
             #Y = tf.convert_to_tensor(X)
