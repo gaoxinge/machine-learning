@@ -1,4 +1,4 @@
 *.pyc
 __pycache__
-cs231n/cs231n/datasets/cifar-10-batches-py/*
+cs231n/assigment1/cs231n/datasets/cifar-10-batches-py/*
 tensorflow/1/3/mnist/*
