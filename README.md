@@ -17,6 +17,6 @@ This repository provides codes for the essay of machine learning.
 - architecture ([code](https://github.com/gaoxinge/machine-learning/tree/master/architecture))
 - CNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/CNN%20Reference))
 - RNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/RNN%20Reference))
-- nerual style ([code](https://github.com/gaoxinge/machine-learning/tree/master/neural%20style))
 - classification ([code](https://github.com/gaoxinge/machine-learning/tree/master/classification))
+- nerual style ([code](https://github.com/gaoxinge/machine-learning/tree/master/neural%20style))
 - GAN ([code](https://github.com/gaoxinge/machine-learning/tree/master/GAN))
