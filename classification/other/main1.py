@@ -5,20 +5,16 @@ from tensorflow.keras.layers import ZeroPadding2D, Conv2D, MaxPooling2D, Flatten
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.losses import sparse_categorical_crossentropy
 from tensorflow.keras.metrics import sparse_categorical_accuracy
-from cs231n.data_utils import load_CIFAR10
 
-config = tf.ConfigProto()
-config.gpu_options.allow_growth=True
-sess = tf.Session(config=config)
 
-x_train, y_train, x_test, y_test = load_CIFAR10("cs231n/datasets/cifar-10-batches-py/")
-x_train = x_train.reshape(x_train.shape[0], 32, 32, 3).astype(np.float32) / 255
-x_test = x_test.reshape(x_test.shape[0], 32, 32, 3).astype(np.float32) / 255
+x_train = np.zeros((5000, 224, 224, 3), dtype=np.uint8)
+y_train = np.zeros((5000, 1), dtype=np.uint8)
+x_test = np.zeros((1000, 224, 224, 3), dtype=np.uint8)
+y_test = np.zeros((1000, 1), dtype=np.uint8)
 
 
 model = Sequential()
-model.add(ZeroPadding2D(97, input_shape=(32, 32, 3)))
-model.add(Conv2D(filters=96, kernel_size=(11, 11), strides=(4, 4), activation=tf.nn.relu))
+model.add(Conv2D(filters=96, kernel_size=(11, 11), strides=(4, 4), input_shape=(224, 224, 3), activation=tf.nn.relu))
 model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
 model.add(Conv2D(filters=256, kernel_size=(5, 5), activation=tf.nn.relu))
 model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))

@@ -1,6 +1,6 @@
 |model|acc|
 |-----|---|
-|softmax|92.74%|
-|svm|92.40%|
-|lenet|98.42%|
-|lenet-refine|98.66%|
+|softmax|84.66%|
+|svm|84.06%|
+|lenet|86.31%|
+|lenet-refine|89.81%|

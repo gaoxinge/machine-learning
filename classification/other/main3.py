@@ -5,19 +5,12 @@ from tensorflow.keras.layers import ZeroPadding2D, Conv2D, MaxPooling2D, Flatten
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.losses import sparse_categorical_crossentropy
 from tensorflow.keras.metrics import sparse_categorical_accuracy
-from tensorflow.keras.backend import set_session
 
 
 x_train = np.zeros((5000, 224, 224, 3), dtype=np.uint8)
 y_train = np.zeros((5000, 1), dtype=np.uint8)
 x_test = np.zeros((1000, 224, 224, 3), dtype=np.uint8)
 y_test = np.zeros((1000, 1), dtype=np.uint8)
-
-
-config = tf.ConfigProto()
-config.gpu_options.allow_growth = True
-session = tf.Session(config=config)
-set_session(session)
 
 
 model = Sequential()

@@ -9,7 +9,7 @@ from tensorflow.keras.metrics import categorical_accuracy
 from tensorflow.keras.utils import to_categorical
 
 
-(x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
+(x_train, y_train), (x_test, y_test) = tf.keras.datasets.fashion_mnist.load_data()
 x_train = x_train.reshape(x_train.shape[0], 28 * 28).astype(np.float32) / 255
 x_test = x_test.reshape(x_test.shape[0], 28 * 28).astype(np.float32) / 255
 y_train = to_categorical(y_train)
