@@ -2,12 +2,12 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-from tensorflow.keras.backend import get_session
 from scipy.ndimage.filters import gaussian_filter1d
 from cs231n.classifiers.squeezenet import SqueezeNet
 from cs231n.image_utils import preprocess_image, deprocess_image
 from cs231n.image_utils import SQUEEZENET_MEAN, SQUEEZENET_STD
 from cs231n.data_utils import load_imagenet_val
+tf.enable_eager_execution()
 X_raw, y, class_names = load_imagenet_val(num=5)
 
 
@@ -18,7 +18,24 @@ def blur_image(X, sigma=1):
 
 
 def jitter(X, ox, oy):
-    return np.roll(np.roll(X, ox, 1), oy, 2)
+    """
+    Helper function to randomly jitter an image.
+    
+    Inputs
+    - X: Tensor of shape (N, H, W, C)
+    - ox, oy: Integers giving number of pixels to jitter along W and H axes
+    
+    Returns: A new Tensor of shape (N, H, W, C)
+    """
+    if ox != 0:
+        left = X[:, :, :-ox]
+        right = X[:, :, -ox:]
+        X = tf.concat([right, left], axis=2)
+    if oy != 0:
+        top = X[:, :-oy]
+        bottom = X[:, -oy:]
+        X = tf.concat([bottom, top], axis=1)
+    return X
 
 
 def create_class_visualization(target_y, model, **kwargs):
@@ -47,25 +64,19 @@ def create_class_visualization(target_y, model, **kwargs):
     X = 255 * np.random.rand(224, 224, 3)
     X = preprocess_image(X)[None]
 
-    sess = get_session()
+    X = tf.Variable(X)
     for t in range(num_iterations):
         ox, oy = np.random.randint(0, max_jitter, 2)
         X = jitter(X, ox, oy)
 
-        Y = tf.convert_to_tensor(X)
         with tf.GradientTape() as tape:
-            #Y = tf.convert_to_tensor(X)
-            tape.watch(Y)
-            loss = model(Y)[0, target_y] - l2_reg * tf.nn.l2_loss(Y)
-            #dY = tape.gradient(loss, Y)
-            #dX = sess.run(dY)
-            #X += dX[0] * learning_rate
-        dY = tape.gradient(loss, Y)
-        dX = sess.run(dY)
+            tape.watch(X)
+            loss = model(X)[0, target_y] - l2_reg * tf.nn.l2_loss(X)
+        dX = tape.gradient(loss, X)
         X += dX[0] * learning_rate
 
         X = jitter(X, -ox, -oy)
-        X = np.clip(X, -SQUEEZENET_MEAN/SQUEEZENET_STD, (1.0 - SQUEEZENET_MEAN)/SQUEEZENET_STD)
+        X = tf.clip_by_value(X, -SQUEEZENET_MEAN/SQUEEZENET_STD, (1.0 - SQUEEZENET_MEAN)/SQUEEZENET_STD)
         if t % blur_every == 0:
             X = blur_image(X, sigma=0.5)
 
@@ -87,4 +98,4 @@ model.load_weights(SAVE_PATH)
 model.trainable = False
 
 target_y = 76 # Tarantula
-out = create_class_visualization(target_y, model)                    
+out = create_class_visualization(target_y, model)
