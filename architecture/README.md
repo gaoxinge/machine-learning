@@ -16,7 +16,7 @@ in-memory model -------> model ---------> onnx --------> in-memory model -------
 +-------------------------------+
 |c/c++ tensor library           |
 +-------------------------------+
-|probramming language           |
+|programming language           |
 +-------------------------------+
 |intermedia representation      |
 +-------------------------------+
