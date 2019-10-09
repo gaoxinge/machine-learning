@@ -14,6 +14,7 @@ This repository provides codes for the essay of machine learning.
 - onnx ([code](https://github.com/gaoxinge/machine-learning/tree/master/onnx))
 - tensorrt ([code](https://github.com/gaoxinge/machine-learning/tree/master/tensorrt))
 - architecture ([code](https://github.com/gaoxinge/machine-learning/tree/master/architecture))
+- future ([code](https://github.com/gaoxinge/machine-learning/tree/master/future))
 - CNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/CNN%20Reference))
 - RNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/RNN%20Reference))
 - classification ([code](https://github.com/gaoxinge/machine-learning/tree/master/classification))
