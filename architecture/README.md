@@ -18,7 +18,9 @@ in-memory model -------> model ---------> onnx --------> in-memory model -------
 +-------------------------------+
 |programming language           |
 +-------------------------------+
-|intermedia representation      |
+|graph ir                       | ---> task parallel
++-------------------------------+
+|intermedia representation      | ---> data parallel
 +-------------------------------+
 |library                        |
 +-------------------------------+
@@ -43,6 +45,14 @@ in-memory model -------> model ---------> onnx --------> in-memory model -------
   - [halide/Halide](https://github.com/halide/Halide)
   - [lift-project/lift](https://github.com/lift-project/lift)
   - [skelcl/skelcl](https://github.com/skelcl/skelcl)
+- graph ir
+  - task parallel
+    - [分布式机器学习之——Spark MLlib并行训练原理](https://zhuanlan.zhihu.com/p/81784947)
+    - [一文读懂「Parameter Server」的分布式机器学习训练原理](https://zhuanlan.zhihu.com/p/82116922)
+    - [yahoo/TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark)
+    - [ray-project/ray](https://github.com/ray-project/ray)
+    - [horovod/horovod](https://github.com/horovod/horovod)
+    - [bytedance/byteps](https://github.com/bytedance/byteps)
 - intermedia representation
   - [tensorflow/mlir](https://github.com/tensorflow/mlir)
     - [The LLVM Compiler Infrastructure: 2019 European LLVM Developers Meeting](https://llvm.org/devmtg/2019-04/talks.html)
