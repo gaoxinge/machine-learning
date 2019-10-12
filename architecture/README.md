@@ -72,4 +72,12 @@ in-memory model -------> model ---------> onnx --------> in-memory model -------
 
 ## probabilistic programming
 
+- [Probabilistic programming](https://en.wikipedia.org/wiki/Probabilistic_programming)
+- [An Introduction to Probabilistic Programming](https://arxiv.org/pdf/1809.10756.pdf)
+- [Probabilistic Programming](https://simons.berkeley.edu/sites/default/files/docs/5675/talkprintversion.pdf)
+- [Intro to Modern Bayesian Learning and Probabilistic Programming](https://medium.com/@Petuum/intro-to-modern-bayesian-learning-and-probabilistic-programming-c61830df5c50)
+- [tensorflow/probability](https://github.com/tensorflow/probability)
+- [blei-lab/edward](https://github.com/blei-lab/edward)
+- [Introducing TensorFlow Probability](https://medium.com/tensorflow/introducing-tensorflow-probability-dca4c304e245)
+- [An introduction to probabilistic programming, now available in TensorFlow Probability](https://medium.com/tensorflow/an-introduction-to-probabilistic-programming-now-available-in-tensorflow-probability-6dcc003ca29e)
 - [CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
