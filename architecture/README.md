@@ -61,6 +61,13 @@ in-memory model -------> model ---------> onnx --------> in-memory model -------
     - [MLIR: A new intermediate representation and compiler framework](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)
   - [dmlc/HalideIR](https://github.com/dmlc/HalideIR)
 
+## task parallel vs data parallel
+
+- [TensorFlow Architecture](https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md)
+- [Data Parallelism VS Model Parallelism in Distributed Deep Learning Training](https://leimao.github.io/blog/Data-Parallelism-vs-Model-Paralelism/)
+- [Model Parallelism in Deep Learning is NOT What You Think](https://medium.com/@esaliya/model-parallelism-in-deep-learning-is-not-what-you-think-94d2f81e82ed)
+- [Data parallel and model parallel distributed training with Tensorflow](http://kuozhangub.blogspot.com/2017/08/data-parallel-and-model-parallel.html)
+  
 ## differential programming
 
 - [可微编程：打开深度学习的黑盒子](https://www.jiqizhixin.com/articles/2018-06-08)
@@ -81,3 +88,7 @@ in-memory model -------> model ---------> onnx --------> in-memory model -------
 - [Introducing TensorFlow Probability](https://medium.com/tensorflow/introducing-tensorflow-probability-dca4c304e245)
 - [An introduction to probabilistic programming, now available in TensorFlow Probability](https://medium.com/tensorflow/an-introduction-to-probabilistic-programming-now-available-in-tensorflow-probability-6dcc003ca29e)
 - [CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
+
+## differential programming vs probabilistic programming
+
+![](./1.jpg)
