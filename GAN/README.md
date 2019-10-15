@@ -19,6 +19,7 @@
 - [Tensorflow-GAN: Basics of Generative Adversarial Networks](https://medium.com/@fabulousjeong/gan-with-tensorflow-basics-of-generative-adversarial-networks-d71bb9a4cae2)
 - [Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch)](https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f)
 - [Generative Adversarial Network(GAN) using Keras](https://medium.com/datadriveninvestor/generative-adversarial-network-gan-using-keras-ce1c05cfdfd3)
+- [丘成桐演讲全文：工程上取得很大发展，但理论基础仍非常薄弱，人工智能需要一个可被证明的理论作为基础 | CNCC 2017](https://www.leiphone.com/news/201710/JXViV3L0nQuP1dTu.html)
 
 ## 知乎
 
