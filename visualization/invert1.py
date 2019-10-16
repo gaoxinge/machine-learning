@@ -4,7 +4,6 @@ from scipy.misc import imread, imresize
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow.keras import Model
-from tensorflow.keras.applications import VGG16
 from cs231n.classifiers.squeezenet import SqueezeNet
 tf.enable_eager_execution()
 
@@ -24,6 +23,10 @@ def deprocess(image):
     return np.clip(image, 0, 255).astype(np.uint8)
 
 
+def clip(image):
+    return tf.clip_by_value(image, clip_value_min=0, clip_value_max=1)
+
+
 def f(model, name):
     def g(image):
         for layer in model.net.layers:
@@ -37,16 +40,11 @@ nm_param = 1e-5
 tv_param = 1e-5
 learning_rate = 25
 epochs = 5000
-epoch0 = 100
+epoch0 = 10
 epoch1 = 1000
 MEAN = np.float32([0.485, 0.456, 0.406])
 STD = np.float32([0.229, 0.224, 0.225])
 
-model = VGG16(include_top=False, weights="imagenet")
-print([layer.name for layer in model.layers])
-model0 = Model(inputs=model.input, outputs=model.get_layer("block5_conv1").output)
-
-"""
 SAVE_PATH = "cs231n/datasets/squeezenet.ckpt"
 if not os.path.exists(SAVE_PATH + ".index"):
     raise ValueError("You need to download SqueezeNet!")
@@ -55,15 +53,13 @@ model.load_weights(SAVE_PATH)
 model.trainable = False
 print([layer.name for layer in model.net.layers])
 model0 = f(model, "classifier/layer1")
-model0 = Model(inputs=mode.net.input, output=model.net.get_layer("classifier/layer1").output)
-"""
+model0 = Model(inputs=model.net.input, outputs=model.net.get_layer("classifier/layer1").output)
 
 X0 = read_image("monkey.jpg", 224, 224)
 X0 = process(X0)
 X0 = X0[None]
 phi0 = model0(X0)
 phi1 = tf.nn.l2_loss(phi0)
-
 
 X = 255 * np.random.rand(224, 224, 3)
 X = process(X)
@@ -77,6 +73,7 @@ for _ in range(epochs):
          loss += tv_param * tf.reduce_sum(tf.image.total_variation(X))
     dX = tape.gradient(loss, X)
     X.assign_sub(dX[0] * learning_rate)
+    X.assign(clip(X))    
 
     if _ % epoch0 == 0:
         print(_, loss.numpy())
