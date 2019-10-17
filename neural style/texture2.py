@@ -9,24 +9,24 @@ tf.enable_eager_execution()
 
 MEAN = np.float32([0.485, 0.456, 0.406])
 STD = np.float32([0.229, 0.224, 0.225])
-"""
 TEXTURE_LAYERS = ["block1_conv1", "block2_conv1", "block3_conv1", "block4_conv1", "block5_conv1"]
 TEXTURE_WEIGHTS = [1, 1, 1, 1, 1]
 """
 TEXTURE_LAYERS = [
     "block1_conv1", "block1_conv2", "block1_pool", 
-#    "block2_conv1", "block2_conv2", "block2_pool", 
-#    "block3_conv1", "block3_conv2", "block3_conv3", "block3_conv4", "block3_pool", 
-#    "block4_conv1", "block4_conv2", "block4_conv3", "block4_conv4", "block4_pool", 
-#    "block5_conv1", "block5_conv2", "block5_conv3", "block5_conv4", "block5_pool",
+    "block2_conv1", "block2_conv2", "block2_pool", 
+    "block3_conv1", "block3_conv2", "block3_conv3", "block3_conv4", "block3_pool", 
+    "block4_conv1", "block4_conv2", "block4_conv3", "block4_conv4", "block4_pool", 
+    "block5_conv1", "block5_conv2", "block5_conv3", "block5_conv4", "block5_pool",
 ]
 TEXTURE_WEIGHTS = [
     1, 1, 1,
-#    1, 1, 1,
-#    1, 1, 1,
-#    1, 1, 1, 1, 1,
-#    1, 1, 1, 1, 1,
+    1, 1, 1,
+    1, 1, 1,
+    1, 1, 1, 1, 1,
+    1, 1, 1, 1, 1,
 ]
+"""
 epochs = 10000
 epoch0 = 10
 epoch1 = 1000
@@ -74,7 +74,7 @@ def get_texture_loss(gram_matrixs1, gram_matrixs2, texture_weights=TEXTURE_WEIGH
     return loss
 
 
-model = VGG19(include_top=False, weights="imagenet")
+model = VGG16(include_top=False, weights="imagenet")
 model.trainable = False
 model0 = Model(inputs=model.input, outputs=[model.get_layer(name).output for name in TEXTURE_LAYERS])
 model0.trainable = False
@@ -107,4 +107,3 @@ for _ in range(epochs):
         plt.imshow(deprocess(X[0]))
         plt.axis("off")
         plt.savefig("image/%s.jpg" % _)
-

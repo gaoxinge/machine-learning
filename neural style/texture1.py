@@ -11,13 +11,13 @@ tf.enable_eager_execution()
 MEAN = np.float32([0.485, 0.456, 0.406])
 STD = np.float32([0.229, 0.224, 0.225])
 TEXTURE_LAYERS = [0, 3, 5, 6]
-TEXTURE_WEIGHTS = [2000, 500, 12, 1]
-epochs = 1000
+TEXTURE_WEIGHTS = [20000, 500, 12, 1]
+epochs = 10000
 epoch0 = 10
 epoch1 = 100
 learning_rate = 0.02
-beta1=0.99
-epsilon=1e-1
+beta1 = 0.99
+epsilon = 1e-1
 
 
 def read_image(file, w, h):
@@ -68,7 +68,7 @@ model.trainable = False
 model0 = Model(inputs=model.net.input, outputs=[layer.output for index, layer in enumerate(model.net.layers) if index in TEXTURE_LAYERS])
 model.trainable = False
 
-optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate, beta1=beta1, epsilon=1e-1)
+optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate, beta1=beta1, epsilon=epsilon)
 
 X0 = read_image("upload/1.jpg", 224, 224)
 X0 = process(X0)
