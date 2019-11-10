@@ -7,6 +7,7 @@ This repository provides codes for the essay of machine learning.
 - cs229 ([code](https://github.com/gaoxinge/machine-learning/tree/master/cs229))
 - cs231n ([code](https://github.com/gaoxinge/machine-learning/tree/master/cs231n))
 - cs236 ([code](https://github.com/gaoxinge/machine-learning/tree/master/cs236))
+- stats385 ([code](https://github.com/gaoxinge/machine-learning/tree/master/stats385))
 - xgboost ([code](https://github.com/gaoxinge/machine-learning/tree/master/xgboost))
 - tensorflow ([code](https://github.com/gaoxinge/machine-learning/tree/master/tensorflow))
 - torch ([code](https://github.com/gaoxinge/machine-learning/tree/master/torch))
