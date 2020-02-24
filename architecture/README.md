@@ -38,6 +38,8 @@ in-memory model -------> model ---------> onnx --------> in-memory model -------
   - [tensorflow lite](https://www.tensorflow.org/lite)
   - [core ml](https://developer.apple.com/documentation/coreml)
   - [dmlc/tvm](https://github.com/dmlc/tvm)
+  - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
+  - [pytorch/glow](https://github.com/pytorch/glow)
   - [alibaba/MNN](https://github.com/alibaba/MNN)
   - [Tencent/ncnn](https://github.com/Tencent/ncnn)
   - [XiaoMi/mace](https://github.com/XiaoMi/mace)
