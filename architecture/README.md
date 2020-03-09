@@ -1,16 +1,6 @@
 ## architecture
 
 ```
-                                                             plugin
-                                                               |
-                 train          convert         parser         v          optimize                    inference
-in-memory model -------> model ---------> onnx --------> in-memory model ----------> in-memory model -----------> output 
-                                                                                            ^
-                                                                                            |
-                                                                                          input
-```
-
-```
 +-------------------------------+
 |python tensor library          |
 +-------------------------------+
@@ -49,12 +39,8 @@ in-memory model -------> model ---------> onnx --------> in-memory model -------
   - [skelcl/skelcl](https://github.com/skelcl/skelcl)
 - graph ir
   - task parallel
-    - [分布式机器学习之——Spark MLlib并行训练原理](https://zhuanlan.zhihu.com/p/81784947)
-    - [一文读懂「Parameter Server」的分布式机器学习训练原理](https://zhuanlan.zhihu.com/p/82116922)
     - [yahoo/TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark)
     - [ray-project/ray](https://github.com/ray-project/ray)
-    - [horovod/horovod](https://github.com/horovod/horovod)
-    - [bytedance/byteps](https://github.com/bytedance/byteps)
 - intermedia representation
   - [tensorflow/mlir](https://github.com/tensorflow/mlir)
     - [The LLVM Compiler Infrastructure: 2019 European LLVM Developers Meeting](https://llvm.org/devmtg/2019-04/talks.html)
@@ -62,6 +48,13 @@ in-memory model -------> model ---------> onnx --------> in-memory model -------
     - [TensorFlow Graph Optimizations](https://web.stanford.edu/class/cs245/slides/TFGraphOptimizationsStanford.pdf)    
     - [MLIR: A new intermediate representation and compiler framework](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)
   - [dmlc/HalideIR](https://github.com/dmlc/HalideIR)
+- distirbuted training
+  - [分布式机器学习之——Spark MLlib并行训练原理](https://zhuanlan.zhihu.com/p/81784947)
+  - [一文读懂「Parameter Server」的分布式机器学习训练原理](https://zhuanlan.zhihu.com/p/82116922)
+  - [Horovod知识储备：将HPC技术带入深度学习之中](https://zhuanlan.zhihu.com/p/89093128)
+  - [NVIDIA/nccl](https://github.com/NVIDIA/nccl)
+  - [horovod/horovod](https://github.com/horovod/horovod)
+  - [bytedance/byteps](https://github.com/bytedance/byteps)
 
 ## task parallel vs data parallel
 
