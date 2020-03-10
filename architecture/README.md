@@ -1,3 +1,33 @@
+## architecture
+
+```
++-------------------------------+
+|python tensor library          |
++-------------------------------+
+|c/c++ tensor library           |
+|-------------------------------+
+|in-memory graph                |
+|-------------------------------+
+|graph                          |
++-------------------------------+
+|onnx                           |
++-------------------------------+
+|graph ir                       |
++-------------------------------+
+|tensor ir                      |
++-------------------------------+
+|ir                             |
++-------------------------------+
+|library                        |
++-------------------------------+
+|openmp|mpi|opengl|opencl|cuda  |
++-------------------------------+
+|os                             |
++-------------------------------+
+|hardware                       |
++-------------------------------+
+```
+
 ## differential programming vs probabilistic programming
 
 ![](./1.jpg)
@@ -31,6 +61,37 @@
 - [horovod/horovod](https://github.com/horovod/horovod)
 - [bytedance/byteps](https://github.com/bytedance/byteps)
 
+## deep learning compiler
+
+- [tensorflow lite](https://www.tensorflow.org/lite)
+- [core ml](https://developer.apple.com/documentation/coreml)
+- [alibaba/MNN](https://github.com/alibaba/MNN)
+- [Tencent/ncnn](https://github.com/Tencent/ncnn)
+- [XiaoMi/mace](https://github.com/XiaoMi/mace)
+- [dmlc/tvm](https://github.com/dmlc/tvm)
+- [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
+- [pytorch/glow](https://github.com/pytorch/glow)
+
+## programming language
+
+- [halide/Halide](https://github.com/halide/Halide)
+- [lift-project/lift](https://github.com/lift-project/lift)
+- [skelcl/skelcl](https://github.com/skelcl/skelcl)
+
+## intermediate representation
+
+### mlir
+
+- [tensorflow/mlir](https://github.com/tensorflow/mlir)
+- [The LLVM Compiler Infrastructure: 2019 European LLVM Developers Meeting](https://llvm.org/devmtg/2019-04/talks.html)
+- [MLIR: Multi-Level Intermediate Representation Compiler Infrastructure](https://llvm.org/devmtg/2019-04/slides/Keynote-ShpeismanLattner-MLIR.pdf)
+- [TensorFlow Graph Optimizations](https://web.stanford.edu/class/cs245/slides/TFGraphOptimizationsStanford.pdf)    
+- [MLIR: A new intermediate representation and compiler framework](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)
+
+### halide ir
+
+- [dmlc/HalideIR](https://github.com/dmlc/HalideIR)
+
 ## multi-gpu communication
 
 ### nccl
@@ -45,56 +106,10 @@
 
 - [baidu-research/baidu-allreduce](https://github.com/baidu-research/baidu-allreduce)
 
-## architecture
-
-```
-+-------------------------------+
-|python tensor library          |
-+-------------------------------+
-|c/c++ tensor library           |
-+-------------------------------+
-|programming language           |
-+-------------------------------+
-|graph ir                       | ---> task parallel
-+-------------------------------+
-|intermedia representation      | ---> data parallel
-+-------------------------------+
-|library                        |
-+-------------------------------+
-|openmp|mpi|opengl|opencl|cuda  |
-+-------------------------------+
-|os                             |
-+-------------------------------+
-|hardware                       |
-+-------------------------------+
-```
-
 ## project
 
-- mobile
-  - [tensorflow lite](https://www.tensorflow.org/lite)
-  - [core ml](https://developer.apple.com/documentation/coreml)
-  - [dmlc/tvm](https://github.com/dmlc/tvm)
-  - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
-  - [pytorch/glow](https://github.com/pytorch/glow)
-  - [alibaba/MNN](https://github.com/alibaba/MNN)
-  - [Tencent/ncnn](https://github.com/Tencent/ncnn)
-  - [XiaoMi/mace](https://github.com/XiaoMi/mace)
-- programming language
-  - [halide/Halide](https://github.com/halide/Halide)
-  - [lift-project/lift](https://github.com/lift-project/lift)
-  - [skelcl/skelcl](https://github.com/skelcl/skelcl)
-- graph ir
-  - task parallel
-    - [yahoo/TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark)
-    - [ray-project/ray](https://github.com/ray-project/ray)
-- intermedia representation
-  - [tensorflow/mlir](https://github.com/tensorflow/mlir)
-    - [The LLVM Compiler Infrastructure: 2019 European LLVM Developers Meeting](https://llvm.org/devmtg/2019-04/talks.html)
-    - [MLIR: Multi-Level Intermediate Representation Compiler Infrastructure](https://llvm.org/devmtg/2019-04/slides/Keynote-ShpeismanLattner-MLIR.pdf)
-    - [TensorFlow Graph Optimizations](https://web.stanford.edu/class/cs245/slides/TFGraphOptimizationsStanford.pdf)    
-    - [MLIR: A new intermediate representation and compiler framework](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)
-  - [dmlc/HalideIR](https://github.com/dmlc/HalideIR)
+- [yahoo/TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark)
+- [ray-project/ray](https://github.com/ray-project/ray)
 
 ## task parallel vs data parallel
 
