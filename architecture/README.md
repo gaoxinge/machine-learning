@@ -63,6 +63,7 @@
 
 ## deep learning compiler
 
+- [Deep Learning Compilers](https://ucbrise.github.io/cs294-ai-sys-sp19/assets/lectures/lec12/dl-compilers.pdf)
 - [tensorflow lite](https://www.tensorflow.org/lite)
 - [core ml](https://developer.apple.com/documentation/coreml)
 - [alibaba/MNN](https://github.com/alibaba/MNN)
