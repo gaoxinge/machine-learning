@@ -106,6 +106,11 @@
 
 - [baidu-research/baidu-allreduce](https://github.com/baidu-research/baidu-allreduce)
 
+## graphics
+
+- [tensorflow/graphics](https://github.com/tensorflow/graphics)
+- [facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d)
+
 ## project
 
 - [yahoo/TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark)
