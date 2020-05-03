@@ -28,11 +28,20 @@
 +-------------------------------+
 ```
 
-## differential programming vs probabilistic programming
+## application
+
+### graphics
+
+- [tensorflow/graphics](https://github.com/tensorflow/graphics)
+- [facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d)
+
+## paradigm
+
+### differential programming vs probabilistic programming
 
 ![](./1.jpg)
 
-### differential programming
+#### differential programming
 
 - [可微编程：打开深度学习的黑盒子](https://www.jiqizhixin.com/articles/2018-06-08)
 - [梯度下降是最好的程序员：Julia未来将内嵌可微编程系统](https://www.jiqizhixin.com/articles/2019-07-21-3)
@@ -41,7 +50,7 @@
 - [Demystifying Differentiable Programming: Shift/Reset the Penultimate Backpropagator](https://arxiv.org/pdf/1803.10228.pdf)
 - [First-Class Automatic Differentiation in Swift: A Manifesto](https://gist.github.com/rxwei/30ba75ce092ab3b0dce4bde1fc2c9f1d)
 
-### probabilistic programming
+#### probabilistic programming
 
 - [Probabilistic programming](https://en.wikipedia.org/wiki/Probabilistic_programming)
 - [An Introduction to Probabilistic Programming](https://arxiv.org/pdf/1809.10756.pdf)
@@ -106,11 +115,6 @@
 ### baidu-allreduce
 
 - [baidu-research/baidu-allreduce](https://github.com/baidu-research/baidu-allreduce)
-
-## graphics
-
-- [tensorflow/graphics](https://github.com/tensorflow/graphics)
-- [facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d)
 
 ## project
 
