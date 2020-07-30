@@ -62,6 +62,13 @@
 - [An introduction to probabilistic programming, now available in TensorFlow Probability](https://medium.com/tensorflow/an-introduction-to-probabilistic-programming-now-available-in-tensorflow-probability-6dcc003ca29e)
 - [CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 
+## task parallel vs data parallel
+
+- [TensorFlow Architecture](https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md)
+- [Data Parallelism VS Model Parallelism in Distributed Deep Learning Training](https://leimao.github.io/blog/Data-Parallelism-vs-Model-Paralelism/)
+- [Model Parallelism in Deep Learning is NOT What You Think](https://medium.com/@esaliya/model-parallelism-in-deep-learning-is-not-what-you-think-94d2f81e82ed)
+- [Data parallel and model parallel distributed training with Tensorflow](http://kuozhangub.blogspot.com/2017/08/data-parallel-and-model-parallel.html)
+
 ## distirbuted training
 
 - [分布式机器学习之——Spark MLlib并行训练原理](https://zhuanlan.zhihu.com/p/81784947)
@@ -69,6 +76,20 @@
 - [Horovod知识储备：将HPC技术带入深度学习之中](https://zhuanlan.zhihu.com/p/89093128)
 - [horovod/horovod](https://github.com/horovod/horovod)
 - [bytedance/byteps](https://github.com/bytedance/byteps)
+
+## multi-gpu communication
+
+### nccl
+
+- [NCCL 2.0](http://on-demand.gputechconf.com/gtc/2017/presentation/s7155-jeaugey-nccl.pdf)
+- [NVIDIA/nccl](https://github.com/NVIDIA/nccl)
+- [NCCL Installation Guide](https://docs.nvidia.com/deeplearning/sdk/nccl-install-guide/index.html)
+- [NVIDIA Collective Communication Library (NCCL) Documentation](https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/docs/index.html)
+- [如何理解Nvidia英伟达的Multi-GPU多卡通信框架NCCL？](https://www.zhihu.com/question/63219175)
+
+### baidu-allreduce
+
+- [baidu-research/baidu-allreduce](https://github.com/baidu-research/baidu-allreduce)
 
 ## deep learning compiler
 
@@ -101,29 +122,3 @@
 ### halide ir
 
 - [dmlc/HalideIR](https://github.com/dmlc/HalideIR)
-
-## multi-gpu communication
-
-### nccl
-
-- [NCCL 2.0](http://on-demand.gputechconf.com/gtc/2017/presentation/s7155-jeaugey-nccl.pdf)
-- [NVIDIA/nccl](https://github.com/NVIDIA/nccl)
-- [NCCL Installation Guide](https://docs.nvidia.com/deeplearning/sdk/nccl-install-guide/index.html)
-- [NVIDIA Collective Communication Library (NCCL) Documentation](https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/docs/index.html)
-- [如何理解Nvidia英伟达的Multi-GPU多卡通信框架NCCL？](https://www.zhihu.com/question/63219175)
-
-### baidu-allreduce
-
-- [baidu-research/baidu-allreduce](https://github.com/baidu-research/baidu-allreduce)
-
-## project
-
-- [yahoo/TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark)
-- [ray-project/ray](https://github.com/ray-project/ray)
-
-## task parallel vs data parallel
-
-- [TensorFlow Architecture](https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md)
-- [Data Parallelism VS Model Parallelism in Distributed Deep Learning Training](https://leimao.github.io/blog/Data-Parallelism-vs-Model-Paralelism/)
-- [Model Parallelism in Deep Learning is NOT What You Think](https://medium.com/@esaliya/model-parallelism-in-deep-learning-is-not-what-you-think-94d2f81e82ed)
-- [Data parallel and model parallel distributed training with Tensorflow](http://kuozhangub.blogspot.com/2017/08/data-parallel-and-model-parallel.html)
