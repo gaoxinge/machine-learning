@@ -71,6 +71,7 @@
 
 ## distirbuted training
 
+- [Scaling Distributed Machine Learning with the Parameter Server](https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)
 - [分布式机器学习之——Spark MLlib并行训练原理](https://zhuanlan.zhihu.com/p/81784947)
 - [一文读懂「Parameter Server」的分布式机器学习训练原理](https://zhuanlan.zhihu.com/p/82116922)
 - [Horovod知识储备：将HPC技术带入深度学习之中](https://zhuanlan.zhihu.com/p/89093128)
@@ -93,6 +94,7 @@
 
 ## deep learning compiler
 
+- [Machine Learning in Compiler Optimisation](https://arxiv.org/pdf/1805.03441.pdf)
 - [Deep Learning Compilers](https://ucbrise.github.io/cs294-ai-sys-sp19/assets/lectures/lec12/dl-compilers.pdf)
 - [tensorflow lite](https://www.tensorflow.org/lite)
 - [core ml](https://developer.apple.com/documentation/coreml)
