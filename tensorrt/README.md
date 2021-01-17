@@ -132,3 +132,5 @@ in-memory model -------> model ---------> model: uff/onnx -----------------> in-
 
 - [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
 - [tensorflow/tensorrt](https://github.com/tensorflow/tensorrt)
+- [NVIDIA-AI-IOT/torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
+- [NVIDIA/TRTorch](https://github.com/NVIDIA/TRTorch)

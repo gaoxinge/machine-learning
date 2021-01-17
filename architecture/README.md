@@ -96,14 +96,23 @@
 
 - [Machine Learning in Compiler Optimisation](https://arxiv.org/pdf/1805.03441.pdf)
 - [Deep Learning Compilers](https://ucbrise.github.io/cs294-ai-sys-sp19/assets/lectures/lec12/dl-compilers.pdf)
-- [tensorflow lite](https://www.tensorflow.org/lite)
+
+### server
+
+- [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
+- [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)
+- [tensorflow/xla](https://www.tensorflow.org/xla)
+- [pytorch/glow](https://github.com/pytorch/glow)
+- [dmlc/tvm](https://github.com/dmlc/tvm)
+- [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
+
+### mobile
+
+- [tensorflow/lite](https://www.tensorflow.org/lite)
 - [core ml](https://developer.apple.com/documentation/coreml)
 - [alibaba/MNN](https://github.com/alibaba/MNN)
 - [Tencent/ncnn](https://github.com/Tencent/ncnn)
 - [XiaoMi/mace](https://github.com/XiaoMi/mace)
-- [dmlc/tvm](https://github.com/dmlc/tvm)
-- [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
-- [pytorch/glow](https://github.com/pytorch/glow)
 
 ## programming language
 
