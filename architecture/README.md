@@ -1,6 +1,16 @@
 ## architecture
 
 ```
+                                                                                 plugin
+                                                                                   |
+                 train          convert                    tensorrt parser         v           tensorrt optimize                    tensorrt inference
+in-memory model -------> model ---------> model: uff/onnx -----------------> in-memory model --------------------> in-memory model --------------------> output 
+                                                                                                                          ^
+                                                                                                                          |
+                                                                                                                        input
+```
+
+```
 +-------------------------------+
 |python tensor library          |
 +-------------------------------+

@@ -1,3 +1,5 @@
+# tensorrt
+
 ## install
 
 - [Tar File Installation](https://docs.nvidia.com/deeplearning/sdk/tensorrt-install-guide/index.html#installing-tar)
@@ -106,18 +108,6 @@ $ convert-to-uff models/lenet5.pb
 $ python3 sample.py -d /opt/TensorRT-5.1.5.0/data/
 Test Case: 3
 Prediction: 3
-```
-
-## architecture
-
-```
-                                                                                 plugin
-                                                                                   |
-                 train          convert                    tensorrt parser         v           tensorrt optimize                    tensorrt inference
-in-memory model -------> model ---------> model: uff/onnx -----------------> in-memory model --------------------> in-memory model --------------------> output 
-                                                                                                                          ^
-                                                                                                                          |
-                                                                                                                        input
 ```
 
 ## reference
