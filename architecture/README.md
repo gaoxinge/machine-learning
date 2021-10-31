@@ -126,6 +126,7 @@ in-memory model -------> model ---------> model: uff/onnx -----------------> in-
 ### mobile
 
 - [tensorflow/lite](https://www.tensorflow.org/lite)
+- [pytorch/mobile](https://pytorch.org/mobile/home/)
 - [core ml](https://developer.apple.com/documentation/coreml)
 - [alibaba/MNN](https://github.com/alibaba/MNN)
 - [Tencent/ncnn](https://github.com/Tencent/ncnn)
