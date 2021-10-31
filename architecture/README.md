@@ -119,6 +119,7 @@ in-memory model -------> model ---------> model: uff/onnx -----------------> in-
 - [NVIDIA-AI-IOT/torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
 - [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)
 - [tensorflow/xla](https://www.tensorflow.org/xla)
+- [pytorch/xla](https://github.com/pytorch/xla)
 - [pytorch/glow](https://github.com/pytorch/glow)
 - [dmlc/tvm](https://github.com/dmlc/tvm)
 - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
