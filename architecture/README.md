@@ -102,6 +102,12 @@ in-memory model -------> model ---------> model: uff/onnx -----------------> in-
 
 - [baidu-research/baidu-allreduce](https://github.com/baidu-research/baidu-allreduce)
 
+## deep learning framework
+
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
+- [pytorch/pytorch](https://github.com/pytorch/pytorch)
+- [google/jax](https://github.com/google/jax)
+
 ## deep learning compiler
 
 - [Machine Learning in Compiler Optimisation](https://arxiv.org/pdf/1805.03441.pdf)
@@ -110,6 +116,7 @@ in-memory model -------> model ---------> model: uff/onnx -----------------> in-
 ### server
 
 - [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
+- [NVIDIA-AI-IOT/torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
 - [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)
 - [tensorflow/xla](https://www.tensorflow.org/xla)
 - [pytorch/glow](https://github.com/pytorch/glow)
