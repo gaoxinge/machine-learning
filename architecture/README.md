@@ -121,8 +121,8 @@ in-memory model -------> model ---------> model: uff/onnx -----------------> in-
 - [tensorflow/xla](https://www.tensorflow.org/xla)
 - [pytorch/xla](https://github.com/pytorch/xla)
 - [pytorch/glow](https://github.com/pytorch/glow)
-- [dmlc/tvm](https://github.com/dmlc/tvm)
 - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
+- [dmlc/tvm](https://github.com/dmlc/tvm)
 
 ### mobile
 
