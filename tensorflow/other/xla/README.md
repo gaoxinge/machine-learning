@@ -1,6 +1,6 @@
 ## 例子
 
-```
+```python
 import tensorflow as tf
 
 
