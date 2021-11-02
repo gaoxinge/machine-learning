@@ -1,13 +1,13 @@
 ## architecture
 
 ```
-                                                                                 plugin
-                                                                                   |
-                 train          convert                    tensorrt parser         v           tensorrt optimize                    tensorrt inference
-in-memory model -------> model ---------> model: uff/onnx -----------------> in-memory model --------------------> in-memory model --------------------> output 
-                                                                                                                          ^
-                                                                                                                          |
-                                                                                                                        input
+                                                      plugin
+                                                        |
+                 train          tensorrt parser         v           tensorrt optimize                    tensorrt inference
+in-memory model -------> model -----------------> in-memory model --------------------> in-memory model --------------------> output 
+                                                                                               ^
+                                                                                               |
+                                                                                             input
 ```
 
 ```
@@ -19,8 +19,6 @@ in-memory model -------> model ---------> model: uff/onnx -----------------> in-
 |in-memory graph                |
 |-------------------------------+
 |graph                          |
-+-------------------------------+
-|onnx                           |
 +-------------------------------+
 |graph ir                       |
 +-------------------------------+
