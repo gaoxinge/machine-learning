@@ -121,14 +121,15 @@ in-memory model -------> model -----------------> in-memory model --------------
 - [pytorch/xla](https://github.com/pytorch/xla)
 - [pytorch/glow](https://github.com/pytorch/glow)
 - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
-- [dmlc/tvm](https://github.com/dmlc/tvm)
 
 ### mobile
 
 - [tensorflow/lite](https://www.tensorflow.org/lite)
 - [pytorch/mobile](https://pytorch.org/mobile/home/)
 - [core ml](https://developer.apple.com/documentation/coreml)
+- [dmlc/tvm](https://github.com/dmlc/tvm)
 - [alibaba/MNN](https://github.com/alibaba/MNN)
+- [Tencent/TNN](https://github.com/Tencent/TNN)
 - [Tencent/ncnn](https://github.com/Tencent/ncnn)
 - [XiaoMi/mace](https://github.com/XiaoMi/mace)
 
