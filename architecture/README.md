@@ -129,6 +129,7 @@ in-memory model -------> model -----------------> in-memory model --------------
 - [core ml](https://developer.apple.com/documentation/coreml)
 - [dmlc/tvm](https://github.com/dmlc/tvm)
 - [alibaba/MNN](https://github.com/alibaba/MNN)
+- [Tencent/Forward](https://github.com/Tencent/Forward)
 - [Tencent/TNN](https://github.com/Tencent/TNN)
 - [Tencent/ncnn](https://github.com/Tencent/ncnn)
 - [XiaoMi/mace](https://github.com/XiaoMi/mace)
