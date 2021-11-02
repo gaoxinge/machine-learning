@@ -107,6 +107,7 @@ in-memory model -------> model ---------> model: uff/onnx -----------------> in-
 - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
 - [pytorch/pytorch](https://github.com/pytorch/pytorch)
 - [google/jax](https://github.com/google/jax)
+- [Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow)
 
 ## deep learning compiler
 
