@@ -115,9 +115,11 @@ in-memory model -------> model -----------------> in-memory model --------------
 ### server
 
 - [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
+- [NVIDIA/TRTorch](https://github.com/NVIDIA/TRTorch)
 - [NVIDIA-AI-IOT/torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
 - [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)
 - [tensorflow/xla](https://www.tensorflow.org/xla)
+- [tensorflow/tensorrt](https://github.com/tensorflow/tensorrt)
 - [pytorch/xla](https://github.com/pytorch/xla)
 - [pytorch/glow](https://github.com/pytorch/glow)
 - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
