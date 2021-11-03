@@ -7,6 +7,7 @@ This repository provides codes for the essay of machine learning.
 - cs229 ([code](https://github.com/gaoxinge/machine-learning/tree/master/cs229))
 - cs231n ([code](https://github.com/gaoxinge/machine-learning/tree/master/cs231n))
 - cs236 ([code](https://github.com/gaoxinge/machine-learning/tree/master/cs236))
+- cs329s ([code](https://github.com/gaoxinge/machine-learning/tree/master/cs329s))
 - stats385 ([code](https://github.com/gaoxinge/machine-learning/tree/master/stats385))
 - CNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/CNN%20Reference))
 - RNN Reference ([code](https://github.com/gaoxinge/machine-learning/tree/master/RNN%20Reference))
