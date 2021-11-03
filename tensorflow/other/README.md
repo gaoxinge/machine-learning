@@ -1,5 +1,6 @@
+- [core](./core)
 - [tfgfile](./tfgfile)
 - [tfrecord](./tfrecord)
 - [gradienttape](./gradienttape)
-- [pde](./pde)
 - [xla](./xla)
+- [pde](./pde)
