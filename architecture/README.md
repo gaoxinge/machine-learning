@@ -77,7 +77,7 @@ in-memory model -------> model -----------------> in-memory model --------------
 - [Model Parallelism in Deep Learning is NOT What You Think](https://medium.com/@esaliya/model-parallelism-in-deep-learning-is-not-what-you-think-94d2f81e82ed)
 - [Data parallel and model parallel distributed training with Tensorflow](http://kuozhangub.blogspot.com/2017/08/data-parallel-and-model-parallel.html)
 
-## distirbuted training
+## distributed training
 
 - [Scaling Distributed Machine Learning with the Parameter Server](https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)
 - [分布式机器学习之——Spark MLlib并行训练原理](https://zhuanlan.zhihu.com/p/81784947)
@@ -85,6 +85,12 @@ in-memory model -------> model -----------------> in-memory model --------------
 - [Horovod知识储备：将HPC技术带入深度学习之中](https://zhuanlan.zhihu.com/p/89093128)
 - [horovod/horovod](https://github.com/horovod/horovod)
 - [bytedance/byteps](https://github.com/bytedance/byteps)
+
+### cloud native
+
+- [ElasticDL：蚂蚁金服开源基于TensorFlow的弹性分布式深度学习系统](https://segmentfault.com/a/1190000020363542)
+- [sql-machine-learning/elasticdl](https://github.com/sql-machine-learning/elasticdl)
+- [sql-machine-learning/sqlflow](https://github.com/sql-machine-learning/sqlflow)
 
 ## multi-gpu communication
 
