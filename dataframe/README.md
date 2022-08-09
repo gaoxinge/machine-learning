@@ -1,5 +1,26 @@
 # bigdata
 
+## architecture
+
+- sql on dataframe: python
+- dataframe: python
+- distributed: python/c++
+- standlone: python/c++
+  - data: arrow
+  - compute
+    - llvm
+    - cpu
+      - multithread
+      - simd
+    - gpu
+
+## open source
+
+|             | pandas | cudf | polars          | arrow-rs        | ray/dask | spark/flink | 
+|-------------|--------|------|-----------------|-----------------|----------|-------------|
+| distributed |        |      |                 | datafusion (py) | -        | -           |
+| standlone   | -      | -    | -               | ballista        |          |             |
+
 ## pandas
 
 ### internal structure
@@ -82,7 +103,6 @@ Arrow only support conversion between pandas dataframe and pyarrow table.
 ### open source
 
 - [numpy/numpy](https://github.com/numpy/numpy)
-- [cupy/cupy](https://github.com/cupy/cupy)
 - [scipy/scipy](https://github.com/scipy/scipy)
 - [pandas-dev/pandas](https://github.com/pandas-dev/pandas)
 - [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib)
@@ -97,3 +117,10 @@ Arrow only support conversion between pandas dataframe and pyarrow table.
 - [wesm/pandas2](https://github.com/wesm/pandas2)
 - [Internal Structure of Pandas DataFrames](https://dkharazi.github.io/blog/blockmanager)
 - [Pandas Integration](https://arrow.apache.org/docs/python/pandas.html)
+
+## cudf
+
+### open source
+
+- [cupy/cupy](https://github.com/cupy/cupy)
+- [rapidsai/cudf](https://github.com/rapidsai/cudf)
