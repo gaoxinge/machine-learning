@@ -86,12 +86,6 @@ in-memory model -------> model -----------------> in-memory model --------------
 - [horovod/horovod](https://github.com/horovod/horovod)
 - [bytedance/byteps](https://github.com/bytedance/byteps)
 
-### cloud native
-
-- [ElasticDL：蚂蚁金服开源基于TensorFlow的弹性分布式深度学习系统](https://segmentfault.com/a/1190000020363542)
-- [sql-machine-learning/elasticdl](https://github.com/sql-machine-learning/elasticdl)
-- [sql-machine-learning/sqlflow](https://github.com/sql-machine-learning/sqlflow)
-
 ## multi-gpu communication
 
 ### nccl
