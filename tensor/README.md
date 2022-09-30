@@ -1,5 +1,8 @@
 # tensor
 
+- [deep learning compiler](./deep%20learning%20compiler.md)
+- [infra](./infra.md)
+
 ## architecture
 
 - tensor: python/c++
@@ -91,36 +94,6 @@ in-memory model -------> model -----------------> in-memory model --------------
 
 - [Machine Learning in Compiler Optimisation](https://arxiv.org/pdf/1805.03441.pdf)
 - [Deep Learning Compilers](https://ucbrise.github.io/cs294-ai-sys-sp19/assets/lectures/lec12/dl-compilers.pdf)
-
-### server
-
-- [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
-- [NVIDIA/TRTorch](https://github.com/NVIDIA/TRTorch)
-- [NVIDIA-AI-IOT/torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
-- [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)
-- [tensorflow/xla](https://www.tensorflow.org/xla)
-- [tensorflow/tensorrt](https://github.com/tensorflow/tensorrt)
-- [pytorch/xla](https://github.com/pytorch/xla)
-- [pytorch/glow](https://github.com/pytorch/glow)
-- [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
-
-### mobile
-
-- [tensorflow/lite](https://www.tensorflow.org/lite)
-- [pytorch/mobile](https://pytorch.org/mobile/home/)
-- [core ml](https://developer.apple.com/documentation/coreml)
-- [dmlc/tvm](https://github.com/dmlc/tvm)
-- [alibaba/MNN](https://github.com/alibaba/MNN)
-- [Tencent/Forward](https://github.com/Tencent/Forward)
-- [Tencent/TNN](https://github.com/Tencent/TNN)
-- [Tencent/ncnn](https://github.com/Tencent/ncnn)
-- [XiaoMi/mace](https://github.com/XiaoMi/mace)
-
-## programming language
-
-- [halide/Halide](https://github.com/halide/Halide)
-- [lift-project/lift](https://github.com/lift-project/lift)
-- [skelcl/skelcl](https://github.com/skelcl/skelcl)
 
 ## intermediate representation
 

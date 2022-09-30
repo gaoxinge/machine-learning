@@ -1,15 +1,15 @@
-## other
+# infra
 
-### spark
+## spark
 
 - [NVIDIA/spark-rapids](https://github.com/NVIDIA/spark-rapids)
 - [yahoo/TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark)
 
-### sql
+## sql
 
 - [sql-machine-learning/sqlflow](https://github.com/sql-machine-learning/sqlflow)
 
-### cloud native
+## cloud native
 
 - [kubeflow](https://github.com/kubeflow)
 - [ElasticDL：蚂蚁金服开源基于TensorFlow的弹性分布式深度学习系统](https://segmentfault.com/a/1190000020363542)
