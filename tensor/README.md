@@ -1,23 +1,8 @@
 # tensor
 
+- [overview](./overview.md)
 - [deep learning compiler](./deep%20learning%20compiler.md)
-- [infra](./infra.md)
-
-## architecture
-
-- tensor: python/c++
-- graph: standalone/distributed
-- IR
-
-```
-                                                      plugin
-                                                        |
-                 train          tensorrt parser         v           tensorrt optimize                    tensorrt inference
-in-memory model -------> model -----------------> in-memory model --------------------> in-memory model --------------------> output 
-                                                                                               ^
-                                                                                               |
-                                                                                             input
-```
+- [infrastructure](./infrastructure.md)
 
 ## application
 
@@ -82,13 +67,6 @@ in-memory model -------> model -----------------> in-memory model --------------
 ### baidu-allreduce
 
 - [baidu-research/baidu-allreduce](https://github.com/baidu-research/baidu-allreduce)
-
-## deep learning framework
-
-- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
-- [pytorch/pytorch](https://github.com/pytorch/pytorch)
-- [google/jax](https://github.com/google/jax)
-- [Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow)
 
 ## deep learning compiler
 

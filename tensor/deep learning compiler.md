@@ -32,5 +32,3 @@
 - [Tencent/ncnn](https://github.com/Tencent/ncnn)
 - [OAID/Tengine](https://github.com/OAID/Tengine)
 - [XiaoMi/mace](https://github.com/XiaoMi/mace)
-
-## IR
