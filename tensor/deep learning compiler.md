@@ -19,6 +19,7 @@
 - [pytorch/xla](https://github.com/pytorch/xla)
 - [pytorch/glow](https://github.com/pytorch/glow)
 - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
+- [facebookincubator/AITemplate](https://github.com/facebookincubator/AITemplate)
 
 ### mobile
 
