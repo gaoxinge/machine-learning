@@ -20,6 +20,8 @@
 - [pytorch/glow](https://github.com/pytorch/glow)
 - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
 - [facebookincubator/AITemplate](https://github.com/facebookincubator/AITemplate)
+- [onnx/onnx](https://github.com/onnx/onnx)
+- [microsoft/onnxruntime](https://github.com/Microsoft/onnxruntime)
 
 ### mobile
 
