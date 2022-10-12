@@ -22,5 +22,5 @@ This repository provides codes for the essay of machine learning.
 - [darknet](./darknet)
 - [tensorrt](./tensorrt)
 - [onnx](./onnx)
-- tensor ([code](https://github.com/gaoxinge/machine-learning/tree/master/tensor))
-- dataframe ([code](https://github.com/gaoxinge/machine-learning/tree/master/dataframe))
+- [tensor](./tensor)
+- [dataframe](./dataframe)
