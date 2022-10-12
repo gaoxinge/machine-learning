@@ -21,6 +21,6 @@ This repository provides codes for the essay of machine learning.
 - torch ([code](https://github.com/gaoxinge/machine-learning/tree/master/torch))
 - darknet ([code](https://github.com/gaoxinge/machine-learning/tree/master/darknet))
 - [tensorrt](./tensorrt)
-- onnx ([code](https://github.com/gaoxinge/machine-learning/tree/master/onnx))
+- [onnx](./onnx)
 - tensor ([code](https://github.com/gaoxinge/machine-learning/tree/master/tensor))
 - dataframe ([code](https://github.com/gaoxinge/machine-learning/tree/master/dataframe))
