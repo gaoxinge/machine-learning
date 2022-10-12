@@ -10,4 +10,4 @@ xgb.train(params, dtrain, evals=[(dtrain, "train")])
 
 # sklearn API example
 gbm = xgb.XGBRegressor(silent=False, n_estimators=10, tree_method='gpu_hist', gpu_id=7)
-gbm.fit(boston.data, boston.target, eval_set=[(boston.data, boston.target)]) 
+gbm.fit(boston.data, boston.target, eval_set=[(boston.data, boston.target)])
