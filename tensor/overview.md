@@ -22,6 +22,14 @@ in-memory model -------> model -----------------> in-memory model --------------
 
 ## open source
 
+### symbolic programming
+
+- [sympy/sympy](https://github.com/sympy/sympy)
+- [aesara-devs/aesara](https://github.com/aesara-devs/aesara)
+- [Theano/Theano](https://github.com/Theano/Theano)
+
+### deep learning
+
 - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
 - [pytorch/pytorch](https://github.com/pytorch/pytorch)
 - [google/jax](https://github.com/google/jax)
