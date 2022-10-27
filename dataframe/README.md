@@ -2,10 +2,9 @@
 
 ## architecture
 
-- sql on dataframe: python
 - dataframe: python
-- distributed: python/c++
-- standlone: python/c++
+- distributed: python/cpp
+- standlone: cpp
   - data: arrow
   - compute
     - llvm
