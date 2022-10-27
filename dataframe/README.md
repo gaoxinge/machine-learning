@@ -15,10 +15,10 @@
 
 ## open source
 
-|             | pandas | cudf | polars          | arrow-rs        | ray/dask | spark/flink | 
-|-------------|--------|------|-----------------|-----------------|----------|-------------|
-| distributed |        |      |                 | datafusion (py) | -        | -           |
-| standlone   | -      | -    | -               | ballista        |          |             |
+|             | pandas | cudf | vaex |  polars | arrow-rs        | ray/dask | spark/flink | 
+|-------------|--------|------|------|---------|-----------------|----------|-------------|
+| distributed |        |      |      |         | datafusion (py) | -        | -           |
+| standlone   | -      | -    | -    | -       | ballista        |          |             |
 
 ## pandas
 
