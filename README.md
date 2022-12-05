@@ -4,7 +4,7 @@ This repository provides codes for the essay of machine learning.
 
 ## content
 
-- cs229 ([code](https://github.com/gaoxinge/machine-learning/tree/master/cs229))
+- [cs229](./cs229)
 - cs231n ([code](https://github.com/gaoxinge/machine-learning/tree/master/cs231n))
 - cs236 ([code](https://github.com/gaoxinge/machine-learning/tree/master/cs236))
 - stats385 ([code](https://github.com/gaoxinge/machine-learning/tree/master/stats385))
@@ -15,6 +15,7 @@ This repository provides codes for the essay of machine learning.
 - visualization ([code](https://github.com/gaoxinge/machine-learning/tree/master/visualization))
 - nerual style ([code](https://github.com/gaoxinge/machine-learning/tree/master/neural%20style))
 - GAN ([code](https://github.com/gaoxinge/machine-learning/tree/master/GAN))
+- [differentiable programming](./differentiable%20programming)
 - [xgboost](./xgboost)
 - [lightgbm](./lightgbm)
 - [tensorflow](./tensorflow)
