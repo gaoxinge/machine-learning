@@ -2,7 +2,7 @@
 
 - graph vs function
 - gradient / jacobian matrix vs directional derivative
-- first order / high order
+- first order vs high order
 
 ## reference
 
