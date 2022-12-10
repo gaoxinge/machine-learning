@@ -17,6 +17,7 @@ This repository provides codes for the essay of machine learning.
 - GAN ([code](https://github.com/gaoxinge/machine-learning/tree/master/GAN))
 - [用户标签](./用户标签)
 - [广告系统](./广告系统)
+- [推荐系统](./推荐系统)
 - [differentiable programming](./differentiable%20programming)
 - [xgboost](./xgboost)
 - [lightgbm](./lightgbm)
