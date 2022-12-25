@@ -3,6 +3,7 @@
 - [cpp](./cpp)
 - [rust](./rust)
 - [golang](./golang)
+- [java](./java)
 
 ## architecture
 
@@ -19,10 +20,10 @@
 
 ## open source
 
-|             | pandas | cudf | vaex |  polars | arrow-rs        | ray/dask | spark/flink | 
-|-------------|--------|------|------|---------|-----------------|----------|-------------|
-| distributed |        |      |      |         | datafusion (py) | -        | -           |
-| standlone   | -      | -    | -    | -       | ballista        |          |             |
+|             | pandas | cudf | vaex | ray/dask | 
+|-------------|--------|------|------|----------|
+| distributed |        |      |      | -        |
+| standlone   | -      | -    | -    |          |
 
 ## pandas
 

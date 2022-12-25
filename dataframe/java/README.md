@@ -1,4 +1,4 @@
-# rust
+# java
 
 ## overview
 
@@ -18,7 +18,7 @@ flowchart TD;
 
   E(database)
   F(sql)
-
+  
   ARROW --> DATAFRAME
   ARROW --> E
   DATAFRAME --> F
@@ -29,5 +29,4 @@ flowchart TD;
 
 | | standlone | distributed |
 |-|-----------|-------------|
-| arrow-rs | [arrow-datafusion](https://github.com/apache/arrow-datafusion) | [arrow-ballista](https://github.com/apache/arrow-ballista) |
-| [polars](https://github.com/pola-rs/polars) | x | |
+| spark / flink | | x |
