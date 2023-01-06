@@ -15,7 +15,9 @@ This repository provides codes for the essay of machine learning.
 - visualization ([code](https://github.com/gaoxinge/machine-learning/tree/master/visualization))
 - nerual style ([code](https://github.com/gaoxinge/machine-learning/tree/master/neural%20style))
 - GAN ([code](https://github.com/gaoxinge/machine-learning/tree/master/GAN))
+- 向量搜索
 - [用户标签](./用户标签)
+- [搜索引擎](./搜索引擎)
 - [广告系统](./广告系统)
 - [推荐系统](./推荐系统)
 - [differentiable programming](./differentiable%20programming)
