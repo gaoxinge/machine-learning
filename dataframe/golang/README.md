@@ -24,3 +24,9 @@ flowchart TD;
   DATAFRAME --> F
   E --> F
 ```
+
+## open source
+
+| | standalone | distributed |
+|-|------------|-------------|
+| [AdikaStyle/go-df](https://github.com/AdikaStyle/go-df) | x | |

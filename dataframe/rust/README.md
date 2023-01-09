@@ -27,7 +27,7 @@ flowchart TD;
 
 ## open source
 
-| | standlone | distributed |
-|-|-----------|-------------|
+| | standalone | distributed |
+|-|------------|-------------|
 | arrow-rs | [arrow-datafusion](https://github.com/apache/arrow-datafusion) | [arrow-ballista](https://github.com/apache/arrow-ballista) |
 | [polars](https://github.com/pola-rs/polars) | x | |

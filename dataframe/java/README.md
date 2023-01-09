@@ -27,6 +27,6 @@ flowchart TD;
 
 ## open source
 
-| | standlone | distributed |
-|-|-----------|-------------|
+| | standalone | distributed |
+|-|------------|-------------|
 | spark / flink | | x |
