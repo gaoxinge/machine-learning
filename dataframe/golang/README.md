@@ -29,4 +29,5 @@ flowchart TD;
 
 | | standalone | distributed |
 |-|------------|-------------|
+| [kfultz07/go-dataframe](https://github.com/kfultz07/go-dataframe) | x | |
 | [AdikaStyle/go-df](https://github.com/AdikaStyle/go-df) | x | |
