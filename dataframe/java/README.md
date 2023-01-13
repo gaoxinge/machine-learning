@@ -3,7 +3,7 @@
 ## overview
 
 ```mermaid
-flowchart TD;
+flowchart TD
   subgraph ARROW
   A(arrow array)
   B(arrow table)
