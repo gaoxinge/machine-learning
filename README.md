@@ -13,7 +13,7 @@ This repository provides codes for the essay of machine learning.
 - [RNN Reference](./RNN%20Reference)
 - [classification](./classification)
 - [visualization](./visualization)
-- [nerual style](./neural%20sytle)
+- [nerual style](./neural%20style)
 - [GAN](./GAN)
 - 向量搜索
 - [用户标签](./用户标签)
