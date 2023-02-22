@@ -4,10 +4,10 @@ This repository provides codes for the essay of machine learning.
 
 ## content
 
+- [stats385](./stats385)
 - [cs229](./cs229)
 - [cs231n](./cs231n)
 - [cs236](./cs236)
-- [stats385](./stats385)
 - [cs329s](./cs329s)
 - [CNN Reference](./CNN%20Reference)
 - [RNN Reference](./RNN%20Reference)
