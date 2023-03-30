@@ -37,7 +37,6 @@
 - [学习GAN必须阅读的10篇论文](https://zhuanlan.zhihu.com/p/63430681)
 - [一文看懂GAN演进图谱](https://zhuanlan.zhihu.com/p/70033932)
 - [从头开始GAN](https://zhuanlan.zhihu.com/p/27012520)
-- [到底什么是生成式对抗网络GAN？](https://zhuanlan.zhihu.com/p/26994666)
 
 ## github
 
