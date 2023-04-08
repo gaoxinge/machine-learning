@@ -1,5 +1,9 @@
 # GAN
 
+## article
+
+- [看完还不懂生成对抗网络GAN请你咬我|附GAN超全学习材料](https://zhuanlan.zhihu.com/p/42606381)
+
 ## 基本理论
 
 - [Generative Adversarial Nets](https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
@@ -8,7 +12,6 @@
 - [Building a simple Generative Adversarial Network (GAN) using TensorFlow](https://blog.paperspace.com/implementing-gans-in-tensorflow/)
 - [Generative Adversarial Nets in TensorFlow](https://wiseodd.github.io/techblog/2016/09/17/gan-tensorflow/)
 - [How to Develop a 1D Generative Adversarial Network From Scratch in Keras](https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-1-dimensional-function-from-scratch-in-keras/)
-- [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://skymind.ai/wiki/generative-adversarial-network-gan)
 - [Generative Adversarial Network (GAN)](https://www.geeksforgeeks.org/generative-adversarial-network-gan/)
 - [GAN — GAN Series (from the beginning to the end)](https://medium.com/@jonathan_hui/gan-gan-series-2d279f906e7b)
 - [Understanding Generative Adversarial Networks (GANs)](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29)
@@ -19,7 +22,6 @@
 - [Tensorflow-GAN: Basics of Generative Adversarial Networks](https://medium.com/@fabulousjeong/gan-with-tensorflow-basics-of-generative-adversarial-networks-d71bb9a4cae2)
 - [Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch)](https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f)
 - [Generative Adversarial Network(GAN) using Keras](https://medium.com/datadriveninvestor/generative-adversarial-network-gan-using-keras-ce1c05cfdfd3)
-- [丘成桐演讲全文：工程上取得很大发展，但理论基础仍非常薄弱，人工智能需要一个可被证明的理论作为基础 | CNCC 2017](https://www.leiphone.com/news/201710/JXViV3L0nQuP1dTu.html)
 
 ## 知乎
 
@@ -31,7 +33,6 @@
 - [GAN入门理解及公式推导](https://zhuanlan.zhihu.com/p/28853704)
 - [生成对抗网络(GAN) 背后的数学理论](https://zhuanlan.zhihu.com/p/54096381)
 - [机器之心GitHub项目：GAN完整理论推导与实现，Perfect！](https://zhuanlan.zhihu.com/p/29837245)
-- [看完还不懂生成对抗网络GAN请你咬我|附GAN超全学习材料](https://zhuanlan.zhihu.com/p/42606381)
 - [令人拍案叫绝的Wasserstein GAN](https://zhuanlan.zhihu.com/p/25071913)
 - [GAN万字长文综述](https://zhuanlan.zhihu.com/p/58812258)
 - [学习GAN必须阅读的10篇论文](https://zhuanlan.zhihu.com/p/63430681)
