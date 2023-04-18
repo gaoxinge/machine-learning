@@ -21,15 +21,15 @@ def index(y, K):
 
 
 def get_mini_batch(X, y, batch_size):
-    """add random and avoid too much 
+    """add random and avoid too much
     data in one epoch/step"""
     m, n = X.shape
     indices = np.random.choice(m, batch_size)
     return X[indices], y[indices]
 
-    
+
 def unify(x):
-    """resize to 32x32x3 and unify 
+    """resize to 32x32x3 and unify
     value of x to 0~255"""
     x = x.reshape(32, 32, 3)
     min = np.min(x)
@@ -38,9 +38,9 @@ def unify(x):
     x = x.astype(np.uint8)
     return x
 
-    
+
 class SR:
-    
+
     def __init__(self, k, step=10000, learning_rate=0.01, batch_size=256):
         self.k = k
         self.K = np.array([_ for _ in range(1, self.k + 1)])
@@ -48,12 +48,12 @@ class SR:
         self.learning_rate = learning_rate
         self.batch_size = batch_size
         self.W = None
-        
+
     def fit(self, X, y):
         m, n = X.shape
         X = np.column_stack((np.ones(m), X))
         m, n = X.shape
-        
+
         self.W = np.zeros((self.k - 1, n))
         for _ in range(self.step):
             if _ % 50 == 0:
@@ -61,18 +61,17 @@ class SR:
             X_, y_ = get_mini_batch(X, y, self.batch_size)
             for i in range(self.batch_size):
                 delta = index(y_[i], self.K) - softmax_func(self.W, X_[i])
-                delta = np.transpose([delta[:self.k-1]])
+                delta = np.transpose([delta[:self.k - 1]])
                 self.W += self.learning_rate * np.dot(delta, [X_[i]])
-                
+
     def predict(self, X):
         m, n = X.shape
         X = np.column_stack((np.ones(m), X))
-        m, n = X.shape
         return np.array([np.argmax(softmax_func(self.W, x)) for x in X]) + 1
 
 
 def show_iris():
-    # step1: classifier    
+    # step1: classifier
     clf = SR(2)
 
     # step2: fit
@@ -105,10 +104,10 @@ def show_cifar():
     Xte_rows = Xte.reshape(Xte.shape[0], 32 * 32 * 3)
     Ytr += 1
     Yte += 1
-    
+
     sr = SR(10, step=5000)
     sr.fit(Xtr_rows, Ytr)
-    
+
     print(np.mean(sr.predict(Xte_rows) == Yte))
 
 
@@ -118,10 +117,10 @@ def show_w():
     Xte_rows = Xte.reshape(Xte.shape[0], 32 * 32 * 3)
     Ytr += 1
     Yte += 1
-    
+
     sr = SR(10, step=5000)
     sr.fit(Xtr_rows, Ytr)
-    
+
     fig, axes = plt.subplots(3, 3)
     for i in range(9):
         w = sr.W[i]
@@ -133,17 +132,17 @@ def show_w():
         axes[x][y].set_yticks([])
     plt.show()
 
-    
+
 def show_pic():
     Xtr, Ytr, Xte, Yte = load_CIFAR10('cs231n/datasets/cifar-10-batches-py/')
     Xtr_rows = Xtr.reshape(Xtr.shape[0], 32 * 32 * 3)
     Xte_rows = Xte.reshape(Xte.shape[0], 32 * 32 * 3)
     Ytr += 1
     Yte += 1
-    
+
     sr = SR(10, step=5000)
     sr.fit(Xtr_rows, Ytr)
-    
+
     t, k = 10, 9
     fig, axes = plt.subplots(t, k + 2)
     for index_x in range(t):
@@ -153,7 +152,7 @@ def show_pic():
         axes[index_x][0].set_yticks([])
         axes[index_x][1].set_xticks([])
         axes[index_x][1].set_yticks([])
-        
+
         for index_y in range(k):
             w = sr.W[index_y]
             x_ = w[1:] * x
@@ -162,8 +161,7 @@ def show_pic():
             axes[index_x][index_y + 2].set_xticks([])
             axes[index_x][index_y + 2].set_yticks([])
     plt.show()
-    
-    
+
 
 if __name__ == "__main__":
     # show_iris()
