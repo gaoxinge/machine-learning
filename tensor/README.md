@@ -13,10 +13,6 @@
 
 ## paradigm
 
-### differential programming vs probabilistic programming
-
-![](./1.jpg)
-
 #### probabilistic programming
 
 - [Probabilistic programming](https://en.wikipedia.org/wiki/Probabilistic_programming)
