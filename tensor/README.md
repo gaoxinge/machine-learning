@@ -4,9 +4,7 @@
 - [deep learning compiler](./deep%20learning%20compiler.md)
 - [infrastructure](./infrastructure.md)
 
-## application
-
-### graphics
+## graphics
 
 - [tensorflow/graphics](https://github.com/tensorflow/graphics)
 - [facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d)
@@ -55,7 +53,3 @@
 - [MLIR: Multi-Level Intermediate Representation Compiler Infrastructure](https://llvm.org/devmtg/2019-04/slides/Keynote-ShpeismanLattner-MLIR.pdf)
 - [TensorFlow Graph Optimizations](https://web.stanford.edu/class/cs245/slides/TFGraphOptimizationsStanford.pdf)    
 - [MLIR: A new intermediate representation and compiler framework](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)
-
-### halide ir
-
-- [dmlc/HalideIR](https://github.com/dmlc/HalideIR)

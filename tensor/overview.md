@@ -54,10 +54,13 @@ in-memory model -------> model -----------------> in-memory model --------------
 - [pymc-devs/pymc](https://github.com/pymc-devs/pymc)
 - [CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 
+### IR
+
+- [dmlc/HalideIR](https://github.com/dmlc/HalideIR)
+
 ### deep learning
 
 - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
 - [pytorch/pytorch](https://github.com/pytorch/pytorch)
 - [google/jax](https://github.com/google/jax)
 - [Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow)
-
