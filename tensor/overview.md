@@ -35,6 +35,9 @@ in-memory model -------> model -----------------> in-memory model --------------
 - [What is Differentiable Programming?](https://www.quora.com/What-is-Differentiable-Programming)
 - [Demystifying Differentiable Programming: Shift/Reset the Penultimate Backpropagator](https://arxiv.org/pdf/1803.10228.pdf)
 - [First-Class Automatic Differentiation in Swift: A Manifesto](https://gist.github.com/rxwei/30ba75ce092ab3b0dce4bde1fc2c9f1d)
+- [HIPS/autograd](https://github.com/HIPS/autograd)
+- [geohot/tinygrad](https://github.com/geohot/tinygrad)
+- [karpathy/micrograd](https://github.com/karpathy/micrograd)
 
 ### probabilistic programming
 
