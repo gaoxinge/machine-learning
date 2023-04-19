@@ -40,8 +40,8 @@ if __name__ == "__main__":
     #         cnt0 += 1
     #     cnt1 += 1
     #     if cnt1 % 10 == 0:
-    #         print("progress: %0.02f%%, accuracy: %0.02f%%" % (cnt1 / Xte.shape[0] * 100, cnt0 / cnt1 * 100))
-    # print("accuracy: %0.02f%%" % (cnt0 / cnt1 * 100,))
+    #         print("progress: %0.2f%%, accuracy: %0.2f%%" % (cnt1 / Xte.shape[0] * 100, cnt0 / cnt1 * 100))
+    # print("accuracy: %0.2f%%" % (cnt0 / cnt1 * 100,))
 
     fig, axes = plt.subplots(t, k + 2)
     for index_x in range(t):

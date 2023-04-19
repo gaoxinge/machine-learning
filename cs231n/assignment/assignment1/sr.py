@@ -84,7 +84,7 @@ def show_iris():
     y_min, y_max = train_x[:, 1].min() - 1, train_x[:, 1].max() + 1
     x_min, x_max = train_x[:, 0].min() - 1, train_x[:, 0].max() + 1
     xx, yy = np.meshgrid(np.arange(x_min, x_max, .02), np.arange(y_min, y_max, .02))
-    Z = clf.predict(np.c_[xx.ravel(), yy.ravel()]) + 1
+    Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
     ZZ = np.array(Z).reshape(xx.shape)
 
     # step4: plot
@@ -126,7 +126,7 @@ def show_w():
         w = sr.W[i]
         w_ = w[1:]
         w_ = unify(w_)
-        x, y = i / 3, i % 3
+        x, y = i // 3, i % 3
         axes[x][y].imshow(w_)
         axes[x][y].set_xticks([])
         axes[x][y].set_yticks([])
