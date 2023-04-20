@@ -1,4 +1,3 @@
-- [core](./core)
 - [tfgfile](./tfgfile)
 - [tfrecord](./tfrecord)
 - [gradienttape](./gradienttape)
