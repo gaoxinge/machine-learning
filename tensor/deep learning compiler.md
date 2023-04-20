@@ -10,6 +10,7 @@
 
 - [halide/Halide](https://github.com/halide/Halide)
 - [dmlc/tvm](https://github.com/dmlc/tvm)
+- [llvm/torch-mlir](https://github.com/llvm/torch-mlir)
 - [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
 - [NVIDIA/TRTorch](https://github.com/NVIDIA/TRTorch)
 - [NVIDIA-AI-IOT/torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
