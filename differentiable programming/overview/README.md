@@ -1,5 +1,6 @@
 ## overview
 
+- lazy vs eager
 - graph vs function
 - gradient / jacobian matrix vs directional derivative
 - first order vs high order
