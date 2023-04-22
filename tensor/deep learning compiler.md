@@ -15,18 +15,16 @@
 - [NVIDIA/TRTorch](https://github.com/NVIDIA/TRTorch)
 - [NVIDIA-AI-IOT/torch2trt](https://github.com/NVIDIA-AI-IOT/torch2trt)
 - [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)
-- [tensorflow/xla](https://www.tensorflow.org/xla)
-- [tensorflow/tensorrt](https://github.com/tensorflow/tensorrt)
 - [pytorch/xla](https://github.com/pytorch/xla)
 - [pytorch/glow](https://github.com/pytorch/glow)
 - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
 - [facebookincubator/AITemplate](https://github.com/facebookincubator/AITemplate)
 - [onnx/onnx](https://github.com/onnx/onnx)
+- [onnx/onnx-mlir](https://github.com/onnx/onnx-mlir)
 - [microsoft/onnxruntime](https://github.com/Microsoft/onnxruntime)
 
 ### mobile
 
-- [tensorflow/lite](https://www.tensorflow.org/lite)
 - [pytorch/mobile](https://pytorch.org/mobile/home/)
 - [core ml](https://developer.apple.com/documentation/coreml)
 - [PaddlePaddle/Paddle-Lite](https://github.com/PaddlePaddle/Paddle-Lite)
