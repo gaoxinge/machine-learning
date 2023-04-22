@@ -1,6 +1,7 @@
 ## open source
 
 - [onnx/onnx](https://github.com/onnx/onnx)
+- [onnx/onnx-mlir](https://github.com/onnx/onnx-mlir)
 - [microsoft/onnxruntime](https://github.com/Microsoft/onnxruntime)
 
 ## reference
