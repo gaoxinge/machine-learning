@@ -2,6 +2,7 @@
 
 - [overview](./overview.md)
 - [deep learning compiler](./deep%20learning%20compiler.md)
+- [serving](./serving.md)
 - [infrastructure](./infrastructure.md)
 
 ## graphics
