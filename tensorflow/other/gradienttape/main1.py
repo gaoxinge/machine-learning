@@ -1,8 +1,7 @@
-import numpy as np
 import tensorflow as tf
 
-
-sess = tf.InteractiveSession()
+# tf 2.10.1 not work
+sess = tf.compat.v1.InteractiveSession()
 x = tf.constant(3.0)
 for _ in range(10000):
     if _ % 100 == 0:
@@ -13,3 +12,5 @@ for _ in range(10000):
     dy_dx = g.gradient(y, x)
     x -= dy_dx * 0.001
 print(x.eval())
+sess.close()
+

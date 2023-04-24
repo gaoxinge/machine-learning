@@ -1,7 +1,6 @@
-import numpy as np
 import tensorflow as tf
 
-tf.enable_eager_execution()
+# tf.enable_eager_execution()  # tf 2.10.1 not need
 
 x = tf.Variable(3.0)
 for _ in range(10000):
