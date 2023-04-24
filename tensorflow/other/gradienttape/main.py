@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf
 
 
-with tf.Session() as sess:
+with tf.compat.v1.Session() as sess:
     x = tf.constant(3.0)
     for _ in range(10000):
         if _ % 100 == 0:
