@@ -19,6 +19,7 @@ in-memory model -------> model -----------------> in-memory model --------------
 ## awesome
 
 - [HuaizhengZhang/Awesome-System-for-Machine-Learning](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning)
+- [MLsys各方向综述](https://zhuanlan.zhihu.com/p/104444471)
 
 ## open source
 
