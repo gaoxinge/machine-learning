@@ -47,5 +47,4 @@ in-memory model -------> model -----------------> in-memory model --------------
 
 - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
 - [pytorch/pytorch](https://github.com/pytorch/pytorch)
-- [google/jax](https://github.com/google/jax)
 - [Oneflow-Inc/oneflow](https://github.com/Oneflow-Inc/oneflow)
