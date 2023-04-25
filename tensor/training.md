@@ -7,6 +7,12 @@
 - [NCCL Installation Guide](https://docs.nvidia.com/deeplearning/sdk/nccl-install-guide/index.html)
 - [NVIDIA Collective Communication Library (NCCL) Documentation](https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/docs/index.html)
 
+## data parallel
+
+- [分布式训练的通讯原语](https://juejin.cn/post/7063102006059237406)
+- [利用共享内存实现比NCCL更快的集合通信](https://juejin.cn/post/6993203273381609509)
+- [分布式训练的一些问题](https://qiankunli.github.io/2022/01/13/distributed_training.html)
+
 ## todo
 
 - [Data Parallelism VS Model Parallelism in Distributed Deep Learning Training](https://leimao.github.io/blog/Data-Parallelism-vs-Model-Paralelism/)
