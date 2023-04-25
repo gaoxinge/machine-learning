@@ -10,7 +10,6 @@
 
 - [halide/Halide](https://github.com/halide/Halide)
 - [dmlc/tvm](https://github.com/dmlc/tvm)
-- [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)
 - [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)
 - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
 - [facebookincubator/AITemplate](https://github.com/facebookincubator/AITemplate)
