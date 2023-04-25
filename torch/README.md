@@ -1,12 +1,7 @@
 # torch
 
-- [tutorials](https://pytorch.org/tutorials/)
 - overview ([code](./overview))
-
-## autograd
-
-- [Autograd:PyTorch中的梯度计算](https://zhuanlan.zhihu.com/p/29904755)
-- [PyTorch - Variables, functionals and Autograd.](https://jhui.github.io/2018/02/09/PyTorch-Variables-functionals-and-Autograd/)
+- other ([code](./other))
 
 ## nn
 
