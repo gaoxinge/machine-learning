@@ -20,20 +20,6 @@
 - [horovod/horovod](https://github.com/horovod/horovod)
 - [bytedance/byteps](https://github.com/bytedance/byteps)
 
-## multi-gpu communication
-
-### nccl
-
-- [NCCL 2.0](http://on-demand.gputechconf.com/gtc/2017/presentation/s7155-jeaugey-nccl.pdf)
-- [NVIDIA/nccl](https://github.com/NVIDIA/nccl)
-- [NCCL Installation Guide](https://docs.nvidia.com/deeplearning/sdk/nccl-install-guide/index.html)
-- [NVIDIA Collective Communication Library (NCCL) Documentation](https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/docs/index.html)
-- [如何理解Nvidia英伟达的Multi-GPU多卡通信框架NCCL？](https://www.zhihu.com/question/63219175)
-
-### baidu-allreduce
-
-- [baidu-research/baidu-allreduce](https://github.com/baidu-research/baidu-allreduce)
-
 ## deep learning compiler
 
 - [Machine Learning in Compiler Optimisation](https://arxiv.org/pdf/1805.03441.pdf)
