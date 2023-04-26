@@ -12,6 +12,7 @@
 - [分布式训练的通讯原语](https://juejin.cn/post/7063102006059237406)
 - [利用共享内存实现比NCCL更快的集合通信](https://juejin.cn/post/6993203273381609509)
 - [分布式训练的一些问题](https://qiankunli.github.io/2022/01/13/distributed_training.html)
+- [GPU&CUDA多机通信](https://github.com/FelixFu520/README/blob/main/envs/pytorch/cuda_gpu.md)
 - [Visual intuition on ring-Allreduce for distributed Deep Learning](https://towardsdatascience.com/visual-intuition-on-ring-allreduce-for-distributed-deep-learning-d1f34b4911da)
 - [Bringing HPC Techniques to Deep Learning](https://andrew.gibiansky.com/blog/machine-learning/baidu-allreduce/)
 - [Horovod知识储备：将HPC技术带入深度学习之中](https://zhuanlan.zhihu.com/p/89093128)
