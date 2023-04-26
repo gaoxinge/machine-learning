@@ -18,6 +18,13 @@
 - [Visual intuition on ring-Allreduce for distributed Deep Learning](https://towardsdatascience.com/visual-intuition-on-ring-allreduce-for-distributed-deep-learning-d1f34b4911da)
 - [Bringing HPC Techniques to Deep Learning](https://andrew.gibiansky.com/blog/machine-learning/baidu-allreduce/)
 - [Horovod知识储备：将HPC技术带入深度学习之中](https://zhuanlan.zhihu.com/p/89093128)
+- [MPI，OpenMPI 与深度学习](https://zhuanlan.zhihu.com/p/158584571)
+
+### open source
+
+- [baidu-research/tensorflow-allreduce](https://github.com/baidu-research/tensorflow-allreduce)
+- [horovod/horovod](https://github.com/horovod/horovod)
+- [bytedance/byteps](https://github.com/bytedance/byteps)
 
 ## todo
 

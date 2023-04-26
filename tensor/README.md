@@ -11,12 +11,6 @@
 - [tensorflow/graphics](https://github.com/tensorflow/graphics)
 - [facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d)
 
-## distributed training
-
-- [Scaling Distributed Machine Learning with the Parameter Server](https://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)
-- [horovod/horovod](https://github.com/horovod/horovod)
-- [bytedance/byteps](https://github.com/bytedance/byteps)
-
 ## deep learning compiler
 
 - [Machine Learning in Compiler Optimisation](https://arxiv.org/pdf/1805.03441.pdf)
