@@ -1,0 +1,15 @@
+FROM nvidia/cuda:11.1.1-cudnn8-devel-ubuntu20.04
+
+RUN apt update
+RUN apt install -y git
+RUN apt install -y vim
+RUN apt install -y wget
+RUN apt install -y python3-dev
+RUN apt install -y python3-setuptools
+RUN apt install -y python3-pip
+RUN pip install tensorflow==2.11.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install nvidia-cudnn-cu11==8.6.0.163 -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN CUDNN_PATH=$(dirname $(python3 -c "import nvidia.cudnn;print(nvidia.cudnn.__file__)"))
+RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib
+
+CMD ["sleep", "infinity"]
