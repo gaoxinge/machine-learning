@@ -22,6 +22,8 @@
 
 ### open source
 
+- [dmlc/ps-lite](https://github.com/dmlc/ps-lite)
+- [baidu-research/baidu-allreduce](https://github.com/baidu-research/baidu-allreduce)
 - [baidu-research/tensorflow-allreduce](https://github.com/baidu-research/tensorflow-allreduce)
 - [horovod/horovod](https://github.com/horovod/horovod)
 - [bytedance/byteps](https://github.com/bytedance/byteps)
