@@ -22,6 +22,7 @@ This repository provides codes for the essay of machine learning.
 - [广告系统](./广告系统)
 - [推荐系统](./推荐系统)
 - [differentiable programming](./differentiable%20programming)
+- [gemm](./gemm)
 - [xgboost](./xgboost)
 - [lightgbm](./lightgbm)
 - [tensorflow](./tensorflow)
