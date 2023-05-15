@@ -1,4 +1,4 @@
-# RNN Reference
+# RNN
 
 ## 基本理论
 

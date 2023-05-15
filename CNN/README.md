@@ -1,4 +1,10 @@
-# CNN Reference
+# CNN
+
+## overview
+
+|    | minst | minst fashion | cifar10 |
+|----|-------|---------------|---------|
+| lr | 0.93  | 0.84          | 0.39    |
 
 ## 基本理论
 
