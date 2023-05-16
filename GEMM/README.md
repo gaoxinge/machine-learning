@@ -1,3 +1,3 @@
-# gemm
+# GEMM
 
 - [overview](./overview)
