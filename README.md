@@ -11,7 +11,6 @@ This repository provides codes for the essay of machine learning.
 - [cs329s](./cs329s)
 - [CNN](./CNN)
 - [RNN](./RNN)
-- [classification](./classification)
 - [visualization](./visualization)
 - [nerual style](./neural%20style)
 - [GAN](./GAN)
