@@ -29,5 +29,7 @@ This repository provides codes for the essay of machine learning.
 - [darknet](./darknet)
 - [tensorrt](./tensorrt)
 - [onnx](./onnx)
+- [tvm](./tvm)
+- [mlir](./mlir)
 - [tensor](./tensor)
 - [dataframe](./dataframe)
