@@ -7,3 +7,4 @@
 - [Tensorflow 编译加速器 XLA 源码深入解读](https://zhuanlan.zhihu.com/p/427444916)
 - [Control Flow in TensorFlow & XLA's Auto-Clustering](https://www.playingwithpointers.com/blog/control-flow-and-tf-xla.html)
 - [Resource Variable Operations in TensorFlow/XLA](https://www.playingwithpointers.com/blog/auto-clustering-resource-vars.html)
+- [TensorFlow Graph Optimizations](https://github.com/MondayYuan/DLCompilerResource/blob/master/pdf/TFGraphOptimizationsStanford.pdf)
