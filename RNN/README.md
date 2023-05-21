@@ -16,14 +16,5 @@
 - RNN ([article](https://blog.csdn.net/zhaojc1995/article/details/80572098))
 - 通俗理解RNN ([article](https://blog.csdn.net/qq_23225317/article/details/77834890))
 - RNN入门与实践 ([article](https://blog.csdn.net/SzM21C11U68n04vdcLmJ/article/details/78237224))
-
-## tensorflow
-
-- TensorFlow中RNN实现的正确打开方式 ([article](https://blog.csdn.net/starzhou/article/details/77848156), [code](https://github.com/gaoxinge/machine-learning/tree/master/RNN%20Reference/1))
 - TensorFlow中RNN实现的正确打开方式 ([article](https://zhuanlan.zhihu.com/p/28196873))
-- 深度学习（07）_RNN-循环神经网络-02-Tensorflow中的实现 ([article](https://blog.csdn.net/u013082989/article/details/73469095/))
-- 使用TensorFlow实现RNN模型入门篇1 ([article](https://blog.csdn.net/liuchonge/article/details/70809288))
-- 解读tensorflow之rnn ([article](https://blog.csdn.net/mydear_11000/article/details/52414342))
-- 使用Tensorflow实现简单的RNN ([article](https://www.jianshu.com/p/b38760250281))
-- Tensorflow中的RNN，实用指南和未记载的特征 ([article](https://www.sohu.com/a/220575494_488171))
 
