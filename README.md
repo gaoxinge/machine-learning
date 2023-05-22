@@ -9,6 +9,7 @@ This repository provides codes for the essay of machine learning.
 - [cs231n](./cs231n)
 - [cs236](./cs236)
 - [cs329s](./cs329s)
+- [d2l](./d2l)
 - [CNN](./CNN)
 - [RNN](./RNN)
 - [visualization](./visualization)
