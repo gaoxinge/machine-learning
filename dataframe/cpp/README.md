@@ -30,7 +30,7 @@ flowchart TD
     subgraph DATAFRAME-PYTHON
       G(dataframe)
       H(distributed dataframe)
-      G -- dask/ray --> H
+      G --> H
     end
 
     DATAFRAME-CPP --> DATAFRAME-PYTHON

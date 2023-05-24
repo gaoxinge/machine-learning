@@ -2,18 +2,23 @@
 
 ## overview
 
-- tensor: python/c++
-- graph: standalone/distributed
-- IR
+```mermaid
+flowchart TD
+  subgraph TENSOR
+    subgraph TENSOR-CPP
+      A(graph: distributed)
+      B(ir: standalone)
+      A --> B
+    end
+    
+    subgraph TENSOR-PYTHON
+      E(graph: distributed)
+      F(ir: standalone)
+      E --> F
+    end
 
-```
-                                                      plugin
-                                                        |
-                 train          tensorrt parser         v           tensorrt optimize                    tensorrt inference
-in-memory model -------> model -----------------> in-memory model --------------------> in-memory model --------------------> output 
-                                                                                               ^
-                                                                                               |
-                                                                                             input
+    TENSOR-CPP --> TENSOR-PYTHON
+  end
 ```
 
 ## awesome
