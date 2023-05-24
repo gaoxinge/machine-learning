@@ -54,6 +54,10 @@ flowchart TD
 | [vaex](https://github.com/vaexio/vaex) | x | |
 | [cudf](https://github.com/rapidsai/cudf) | x | |
 | [pandas](https://github.com/pandas-dev/pandas) | x | |
+| [modin](https://github.com/modin-project/modin) | x | x |
+| [dask](https://github.com/dask/dask) | x | x |
+| [mars](https://github.com/mars-project/mars) | x | x |
+| [xorbits](https://github.com/xprobe-inc/xorbits) | x | x |
 
 ## pandas
 
