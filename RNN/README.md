@@ -2,11 +2,11 @@
 
 ## 基本理论
 
+- Understanding LSTM Networks ([article](http://colah.github.io/posts/2015-08-Understanding-LSTMs/))
 - Recurrent Neural Networks Tutorial ([article](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/))
 - Recurrent Neural Networks Tutorial, Part 2 – Implementing a RNN with Python, Numpy and Theano ([article](https://dennybritz.com/posts/wildml/recurrent-neural-networks-tutorial-part-2/))
 - Recurrent Neural Networks Tutorial, Part 3 – Backpropagation Through Time and Vanishing Gradients ([article](https://dennybritz.com/posts/wildml/recurrent-neural-networks-tutorial-part-3/))
 - Recurrent Neural Network Tutorial, Part 4 – Implementing a GRU and LSTM RNN with Python and Theano ([article](https://dennybritz.com/posts/wildml/recurrent-neural-networks-tutorial-part-4/))
-- Understanding LSTM Networks ([article](http://colah.github.io/posts/2015-08-Understanding-LSTMs/))
 - Anyone Can Learn To Code an LSTM-RNN in Python (Part 1: RNN) ([article](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/))
 - Simple LSTM ([article](https://nicodjimenez.github.io/2014/08/08/lstm.html))
 - 循环神经网络(RNN)模型与前向反向传播算法 ([article](https://www.cnblogs.com/pinard/p/6509630.html))
