@@ -15,7 +15,7 @@
 - 完全图解RNN、RNN变体、Seq2Seq、Attention机制 ([article](https://zhuanlan.zhihu.com/p/28054589))
 - TensorFlow中RNN实现的正确打开方式 ([article](https://zhuanlan.zhihu.com/p/28196873))
 - RNN结构理解和双向、深层RNN ([article](https://zhuanlan.zhihu.com/p/70835671))
-- 数学 · RNN（二）· BPTT 算法 ([article](https://zhuanlan.zhihu.com/p/26892413))
 - RNN梯度消失和爆炸的原因 ([article](https://zhuanlan.zhihu.com/p/28687529))
 - LSTM如何解决梯度消失问题 ([article](https://zhuanlan.zhihu.com/p/28749444))
+- 数学 · RNN（二）· BPTT 算法 ([article](https://zhuanlan.zhihu.com/p/26892413))
 
