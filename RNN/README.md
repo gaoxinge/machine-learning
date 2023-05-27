@@ -2,6 +2,7 @@
 
 ## 基本理论
 
+- The Unreasonable Effectiveness of Recurrent Neural Networks ([article](http://karpathy.github.io/2015/05/21/rnn-effectiveness/))
 - Recurrent Neural Networks Tutorial ([article](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/))
 - Recurrent Neural Networks Tutorial, Part 2 – Implementing a RNN with Python, Numpy and Theano ([article](https://dennybritz.com/posts/wildml/recurrent-neural-networks-tutorial-part-2/))
 - Recurrent Neural Networks Tutorial, Part 3 – Backpropagation Through Time and Vanishing Gradients ([article](https://dennybritz.com/posts/wildml/recurrent-neural-networks-tutorial-part-3/))
