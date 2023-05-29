@@ -77,7 +77,7 @@ with strategy.scope():
     train_accuracy = tf.keras.metrics.SparseCategoricalAccuracy(name='train_accuracy')
     test_accuracy = tf.keras.metrics.SparseCategoricalAccuracy(name='test_accuracy')
     checkpoint_dir = './training_checkpoints'
-    checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt_{epoch}")
+    checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
     checkpoint = tf.train.Checkpoint(optimizer=optimizer, model=model)
 
     EPOCHS = 12
