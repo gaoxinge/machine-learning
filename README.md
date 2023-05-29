@@ -16,6 +16,7 @@ This repository provides codes for the essay of machine learning.
 - [nerual style](./neural%20style)
 - [GAN](./GAN)
 - [stable diffusion](./stable%20diffusion)
+- [NLP](./NLP)
 - 向量搜索
 - [用户标签](./用户标签)
 - [搜索引擎](./搜索引擎)
