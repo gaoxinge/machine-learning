@@ -1,3 +1,6 @@
+"""
+- https://gist.github.com/karpathy/d4dee566867f8291f086
+"""
 import random
 import tqdm
 import numpy as np
