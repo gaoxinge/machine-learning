@@ -14,6 +14,7 @@ This repository provides codes for the essay of machine learning.
 - [RNN](./RNN)
 - [visualization](./visualization)
 - [nerual style](./neural%20style)
+- [AE](./AE)
 - [GAN](./GAN)
 - [stable diffusion](./stable%20diffusion)
 - [NLP](./NLP)
