@@ -27,7 +27,6 @@
 - [从头开始GAN](https://zhuanlan.zhihu.com/p/27012520)
 - [通俗理解生成对抗网络GAN](https://zhuanlan.zhihu.com/p/33752313)
 - [令人拍案叫绝的Wasserstein GAN](https://zhuanlan.zhihu.com/p/25071913)
-
 - [兔子哥哥带你从零写一个GAN](https://zhuanlan.zhihu.com/p/26523982)
 - [生成对抗网络（GAN）之MNIST数据生成](https://zhuanlan.zhihu.com/p/28057434)
 - [GAN学习指南：从原理入门到制作生成Demo](https://zhuanlan.zhihu.com/p/24767059)
