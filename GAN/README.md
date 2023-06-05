@@ -25,16 +25,16 @@
 - [学习GAN必须阅读的10篇论文](https://zhuanlan.zhihu.com/p/63430681)
 - [一文看懂GAN演进图谱](https://zhuanlan.zhihu.com/p/70033932)
 - [从头开始GAN](https://zhuanlan.zhihu.com/p/27012520)
+- [GAN万字长文综述](https://zhuanlan.zhihu.com/p/58812258)
 - [通俗理解生成对抗网络GAN](https://zhuanlan.zhihu.com/p/33752313)
-- [令人拍案叫绝的Wasserstein GAN](https://zhuanlan.zhihu.com/p/25071913)
-- [兔子哥哥带你从零写一个GAN](https://zhuanlan.zhihu.com/p/26523982)
-- [生成对抗网络（GAN）之MNIST数据生成](https://zhuanlan.zhihu.com/p/28057434)
-- [GAN学习指南：从原理入门到制作生成Demo](https://zhuanlan.zhihu.com/p/24767059)
 - [GAN原理学习笔记](https://zhuanlan.zhihu.com/p/27295635)
 - [GAN入门理解及公式推导](https://zhuanlan.zhihu.com/p/28853704)
 - [生成对抗网络(GAN) 背后的数学理论](https://zhuanlan.zhihu.com/p/54096381)
 - [机器之心GitHub项目：GAN完整理论推导与实现，Perfect！](https://zhuanlan.zhihu.com/p/29837245)
-- [GAN万字长文综述](https://zhuanlan.zhihu.com/p/58812258)
+- [令人拍案叫绝的Wasserstein GAN](https://zhuanlan.zhihu.com/p/25071913)
+- [兔子哥哥带你从零写一个GAN](https://zhuanlan.zhihu.com/p/26523982)
+- [生成对抗网络（GAN）之MNIST数据生成](https://zhuanlan.zhihu.com/p/28057434)
+- [GAN学习指南：从原理入门到制作生成Demo](https://zhuanlan.zhihu.com/p/24767059)
 
 ## github
 
