@@ -27,6 +27,7 @@
 - [GAN原理学习笔记](https://zhuanlan.zhihu.com/p/27295635)
 - [GAN入门理解及公式推导](https://zhuanlan.zhihu.com/p/28853704)
 - [生成对抗网络(GAN) 背后的数学理论](https://zhuanlan.zhihu.com/p/54096381)
+- [公式推导：GAN（生成式对抗网络）的变量代换步骤](https://zhuanlan.zhihu.com/p/78777020)
 - [机器之心GitHub项目：GAN完整理论推导与实现，Perfect！](https://zhuanlan.zhihu.com/p/29837245)
 - [兔子哥哥带你从零写一个GAN](https://zhuanlan.zhihu.com/p/26523982)
 - [生成对抗网络（GAN）之MNIST数据生成](https://zhuanlan.zhihu.com/p/28057434)
