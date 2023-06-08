@@ -2,50 +2,23 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-from scipy.ndimage.filters import gaussian_filter1d
 from cs231n.classifiers.squeezenet import SqueezeNet
+from cs231n.data_utils import load_imagenet_val
 from cs231n.image_utils import preprocess_image, deprocess_image
 from cs231n.image_utils import SQUEEZENET_MEAN, SQUEEZENET_STD
-from cs231n.data_utils import load_imagenet_val
-tf.enable_eager_execution()
+from cs231n.net_visualization_tensorflow import jitter, blur_image
+
 X_raw, y, class_names = load_imagenet_val(num=5)
-
-
-def blur_image(X, sigma=1):
-    X = gaussian_filter1d(X, sigma, axis=1)
-    X = gaussian_filter1d(X, sigma, axis=2)
-    return X
-
-
-def jitter(X, ox, oy):
-    """
-    Helper function to randomly jitter an image.
-    
-    Inputs
-    - X: Tensor of shape (N, H, W, C)
-    - ox, oy: Integers giving number of pixels to jitter along W and H axes
-    
-    Returns: A new Tensor of shape (N, H, W, C)
-    """
-    if ox != 0:
-        left = X[:, :, :-ox]
-        right = X[:, :, -ox:]
-        X = tf.concat([right, left], axis=2)
-    if oy != 0:
-        top = X[:, :-oy]
-        bottom = X[:, -oy:]
-        X = tf.concat([bottom, top], axis=1)
-    return X
 
 
 def create_class_visualization(target_y, model, **kwargs):
     """
     Generate an image to maximize the score of target_y under a pretrained model.
-    
+
     Inputs:
     - target_y: Integer in the range [0, 1000) giving the index of the class
     - model: A pretrained CNN that will be used to generate the image
-    
+
     Keyword arguments:
     - l2_reg: Strength of L2 regularization on the image
     - learning_rate: How big of a step to take
@@ -76,7 +49,7 @@ def create_class_visualization(target_y, model, **kwargs):
         X += dX[0] * learning_rate
 
         X = jitter(X, -ox, -oy)
-        X = tf.clip_by_value(X, -SQUEEZENET_MEAN/SQUEEZENET_STD, (1.0 - SQUEEZENET_MEAN)/SQUEEZENET_STD)
+        X = np.clip(X, -SQUEEZENET_MEAN / SQUEEZENET_STD, (1.0 - SQUEEZENET_MEAN) / SQUEEZENET_STD)
         if t % blur_every == 0:
             X = blur_image(X, sigma=0.5)
 
@@ -97,5 +70,6 @@ model = SqueezeNet()
 model.load_weights(SAVE_PATH)
 model.trainable = False
 
-target_y = 76 # Tarantula
+target_y = 76  # Tarantula
 out = create_class_visualization(target_y, model)
+
