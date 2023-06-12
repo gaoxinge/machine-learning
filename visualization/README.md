@@ -1,11 +1,15 @@
 # visualization
 
-- [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/pdf/1312.6034.pdf)
 - [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
 - [Understanding Deep Image Representations by Inverting Them](https://arxiv.org/pdf/1412.0035.pdf)
 - [TensorflowProjects/ImageArt/ImageInversion.py](https://github.com/shekkizh/TensorflowProjects/blob/master/ImageArt/ImageInversion.py)
 - [jbmpark/image_invert](https://github.com/jbmpark/image_invert)
 - [ruthcfong/invert](https://github.com/ruthcfong/invert)
+
+## saliency map
+
+- [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/pdf/1312.6034.pdf)
+- [“GrabCut” — Interactive Foreground Extraction using Iterated Graph Cuts](https://cvg.ethz.ch/teaching/cvl/2012/grabcut-siggraph04.pdf)
 
 ## activation
 
