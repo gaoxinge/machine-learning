@@ -11,7 +11,6 @@
 
 ## activation
 
-
 - [Visualizing Higher-Layer Features of a Deep Network](https://www.researchgate.net/profile/Aaron_Courville/publication/265022827_Visualizing_Higher-Layer_Features_of_a_Deep_Network/links/53ff82b00cf24c81027da530.pdf)
 - [Understanding Neural Networks Through Deep Visualization](http://yosinski.com/deepvis)
 - [colah's blog](http://colah.github.io/)
@@ -23,4 +22,10 @@
 
 - [Intriguing properties of neural networks](https://arxiv.org/pdf/1312.6199.pdf)
 - [EXPLAINING AND HARNESSING ADVERSARIAL EXAMPLES](https://arxiv.org/pdf/1412.6572.pdf)
+
+## deep dream
+
+- [Inceptionism: Going Deeper into Neural Networks](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html)
+- [google/deepdream](https://github.com/google/deepdream)
+- [DeepDream](https://www.tensorflow.org/tutorials/generative/deepdream)
 
