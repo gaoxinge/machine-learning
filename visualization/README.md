@@ -1,10 +1,6 @@
 # visualization
 
 - [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations)
-- [Understanding Deep Image Representations by Inverting Them](https://arxiv.org/pdf/1412.0035.pdf)
-- [TensorflowProjects/ImageArt/ImageInversion.py](https://github.com/shekkizh/TensorflowProjects/blob/master/ImageArt/ImageInversion.py)
-- [jbmpark/image_invert](https://github.com/jbmpark/image_invert)
-- [ruthcfong/invert](https://github.com/ruthcfong/invert)
 
 ## saliency map
 
@@ -30,6 +26,13 @@
 - [Inceptionism: Going Deeper into Neural Networks](https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html)
 - [google/deepdream](https://github.com/google/deepdream)
 - [DeepDream](https://www.tensorflow.org/tutorials/generative/deepdream)
+
+## image invert
+
+- [Understanding Deep Image Representations by Inverting Them](https://arxiv.org/pdf/1412.0035.pdf)
+- [TensorflowProjects/ImageArt/ImageInversion.py](https://github.com/shekkizh/TensorflowProjects/blob/master/ImageArt/ImageInversion.py)
+- [jbmpark/image_invert](https://github.com/jbmpark/image_invert)
+- [ruthcfong/invert](https://github.com/ruthcfong/invert)
 
 ## deconvolution
 
