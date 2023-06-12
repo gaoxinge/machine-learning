@@ -1,59 +1,57 @@
-import os
+import cv2
 import numpy as np
-from scipy.misc import imread, imresize
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow.keras import Model
-from cs231n.classifiers.squeezenet import SqueezeNet
-tf.enable_eager_execution()
+from tensorflow.keras.applications.vgg19 import VGG19
 
 
 def read_image(file, w, h):
-    image = imread(file)
-    image = imresize(image, (w, h)) 
+    image = cv2.imread(file)
+    image = cv2.resize(image, (h, w))
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     return image
 
 
 def process(image):
-    return (image.astype(np.float32) / 255 - MEAN) / STD
+    """based on keras.applications.vgg19.preprocess_input"""
+    image = image[..., ::-1]
+    return (image.astype(np.float32) - MEAN) / STD
 
 
 def deprocess(image):
-    image = 255 * (image * STD + MEAN)
+    """based on keras.applications.vgg19.preprocess_input"""
+    image = image * STD + MEAN
+    image = image[..., ::-1]
     return np.clip(image, 0, 255).astype(np.uint8)
 
 
 def clip(image):
-    return tf.clip_by_value(image, clip_value_min=0, clip_value_max=1)
+    return tf.clip_by_value(image, clip_value_min=0, clip_value_max=255)
 
 
-def f(model, name):
-    def g(image):
+def get_model(model, name):
+    def f(image):
         for layer in model.net.layers:
             image = layer(image)
             if layer.name == name:
-               return image
-    return g
+                return image
+    return f
 
 
-nm_param = 1e-5
-tv_param = 1e-5
-learning_rate = 25
+nm_param = 1e-9
+tv_param = 1e-9
+learning_rate = 250000
 epochs = 5000
 epoch0 = 10
 epoch1 = 1000
-MEAN = np.float32([0.485, 0.456, 0.406])
-STD = np.float32([0.229, 0.224, 0.225])
+MEAN = np.float32([103.939, 116.779, 123.68])
+STD = np.float32([1, 1, 1])
 
-SAVE_PATH = "cs231n/datasets/squeezenet.ckpt"
-if not os.path.exists(SAVE_PATH + ".index"):
-    raise ValueError("You need to download SqueezeNet!")
-model = SqueezeNet()
-model.load_weights(SAVE_PATH)
-model.trainable = False
-print([layer.name for layer in model.net.layers])
-model0 = f(model, "classifier/layer1")
-model0 = Model(inputs=model.net.input, outputs=model.net.get_layer("classifier/layer1").output)
+model = VGG19(include_top=True, weights="imagenet")
+print([layer.name for layer in model.layers])
+# model0 = get_model(model, "block5_conv1")
+model0 = Model(inputs=model.input, outputs=model.get_layer("block5_conv1").output)
 
 X0 = read_image("monkey.jpg", 224, 224)
 X0 = process(X0)
@@ -72,8 +70,8 @@ for _ in range(epochs):
          loss += nm_param * tf.nn.l2_loss(X)
          loss += tv_param * tf.reduce_sum(tf.image.total_variation(X))
     dX = tape.gradient(loss, X)
-    X.assign_sub(dX[0] * learning_rate)
-    X.assign(clip(X))    
+    X.assign_sub(dX * learning_rate)
+    X.assign(clip(X))
 
     if _ % epoch0 == 0:
         print(_, loss.numpy())
@@ -82,3 +80,4 @@ for _ in range(epochs):
         plt.imshow(deprocess(X[0]))
         plt.axis("off")
         plt.savefig("image/%s.jpg" % _)
+
