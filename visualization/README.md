@@ -6,8 +6,6 @@
 - [TensorflowProjects/ImageArt/ImageInversion.py](https://github.com/shekkizh/TensorflowProjects/blob/master/ImageArt/ImageInversion.py)
 - [jbmpark/image_invert](https://github.com/jbmpark/image_invert)
 - [ruthcfong/invert](https://github.com/ruthcfong/invert)
-- [Visualizing and Understanding Convolutional Networks](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
-- [Learning Deconvolution Network for Semantic Segmentation](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Noh_Learning_Deconvolution_Network_ICCV_2015_paper.pdf)
 
 ## activation
 
@@ -29,3 +27,7 @@
 - [google/deepdream](https://github.com/google/deepdream)
 - [DeepDream](https://www.tensorflow.org/tutorials/generative/deepdream)
 
+## deconvolution
+
+- [Visualizing and Understanding Convolutional Networks](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
+- [Learning Deconvolution Network for Semantic Segmentation](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Noh_Learning_Deconvolution_Network_ICCV_2015_paper.pdf)
