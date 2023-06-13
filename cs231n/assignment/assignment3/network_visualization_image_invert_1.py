@@ -53,7 +53,6 @@ X = 255 * np.random.rand(224, 224, 3)
 X = preprocess_image(X)
 X = X[None]
 X = tf.Variable(X)
-
 for _ in range(epochs):
     ox, oy = np.random.randint(0, 16, 2)
     if ox == 0 and oy == 0:
