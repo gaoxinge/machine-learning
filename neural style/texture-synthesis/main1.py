@@ -1,16 +1,10 @@
+import cv2
 import numpy as np
-from scipy.misc import imread, imresize
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow.keras import Model
-from tensorflow.keras.applications import VGG16, VGG19
-tf.enable_eager_execution()
+from tensorflow.keras.applications.vgg19 import VGG19
 
-
-MEAN = np.float32([0.485, 0.456, 0.406])
-STD = np.float32([0.229, 0.224, 0.225])
-TEXTURE_LAYERS = ["block1_conv1", "block2_conv1", "block3_conv1", "block4_conv1", "block5_conv1"]
-TEXTURE_WEIGHTS = [1, 1, 1, 1, 1]
 """
 TEXTURE_LAYERS = [
     "block1_conv1", "block1_conv2", "block1_pool", 
@@ -22,36 +16,44 @@ TEXTURE_LAYERS = [
 TEXTURE_WEIGHTS = [
     1, 1, 1,
     1, 1, 1,
-    1, 1, 1,
+    1, 1, 1, 1, 1,
     1, 1, 1, 1, 1,
     1, 1, 1, 1, 1,
 ]
 """
-epochs = 10000
+
+MEAN = np.float32([103.939, 116.779, 123.68])
+STD = np.float32([1, 1, 1])
+TEXTURE_LAYERS = ["block1_conv1", "block2_conv1", "block3_conv1", "block4_conv1", "block5_conv1"]
+TEXTURE_WEIGHTS = [1, 1, 1, 1, 1]
+epochs = 1000
 epoch0 = 10
-epoch1 = 1000
-learning_rate = 0.02
-beta1 = 0.99
-epsilon = 1e-1
+epoch1 = 100
+learning_rate = 3
 
 
 def read_image(file, w, h):
-    image = imread(file)
-    image = imresize(image, (w, h))
+    image = cv2.imread(file)
+    image = cv2.resize(image, (h, w))
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     return image
 
 
 def process(image):
-    return (image.astype(np.float32) / 255 - MEAN) / STD
+    """based on keras.applications.vgg19.preprocess_input"""
+    image = image[..., ::-1]
+    return (image.astype(np.float32) - MEAN) / STD
 
 
 def deprocess(image):
-    image = 255 * (image * STD + MEAN)
+    """based on keras.applications.vgg19.preprocess_input"""
+    image = image * STD + MEAN
+    image = image[..., ::-1]
     return np.clip(image, 0, 255).astype(np.uint8)
 
 
 def clip(image):
-    return tf.clip_by_value(image, clip_value_min=0, clip_value_max=1) 
+    return tf.clip_by_value(image, clip_value_min=0, clip_value_max=255)
 
 
 def get_gram_matrix(output):
@@ -67,21 +69,20 @@ def get_gram_matrixs(model, X):
     return [get_gram_matrix(output) for output in outputs]
 
 
-def get_texture_loss(gram_matrixs1, gram_matrixs2, texture_weights=TEXTURE_WEIGHTS):
+def get_texture_loss(gram_matrixs1, gram_matrixs2, texture_weights):
     loss = 0
     for w, m1, m2 in zip(texture_weights, gram_matrixs1, gram_matrixs2):
-        loss +=  w * tf.nn.l2_loss(m1 - m2)
+        loss += w * tf.nn.l2_loss(m1 - m2)
     return loss
 
 
-model = VGG16(include_top=False, weights="imagenet")
+model = VGG19(include_top=True, weights="imagenet")
 model.trainable = False
 model0 = Model(inputs=model.input, outputs=[model.get_layer(name).output for name in TEXTURE_LAYERS])
 model0.trainable = False
+optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate)
 
-optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate, beta1=beta1, epsilon=epsilon)
-
-X0 = read_image("upload/1.jpg", 224, 224)
+X0 = read_image("input/0.jpg", 224, 224)
 X0 = process(X0)
 X0 = X0[None]
 gram_matrixs0 = get_gram_matrixs(model0, X0)
@@ -94,10 +95,9 @@ for _ in range(epochs):
     with tf.GradientTape() as tape:
         tape.watch(X)
         gram_matrixs = get_gram_matrixs(model0, X)
-        loss = get_texture_loss(gram_matrixs, gram_matrixs0)
+        loss = get_texture_loss(gram_matrixs, gram_matrixs0, TEXTURE_WEIGHTS)
     dX = tape.gradient(loss, X)
     optimizer.apply_gradients([(dX, X)])
-    # X.assign_sub(dX[0] * learning_rate)
     X.assign(clip(X))
 
     if _ % epoch0 == 0:
@@ -107,3 +107,4 @@ for _ in range(epochs):
         plt.imshow(deprocess(X[0]))
         plt.axis("off")
         plt.savefig("image/%s.jpg" % _)
+
