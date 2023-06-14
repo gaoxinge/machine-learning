@@ -55,6 +55,50 @@ def extract_vector(outputs, w, h):
     return class_ids, confidences, boxes
 
 
+def iou(box1, box2):
+    (x1, y1, w1, h1) = box1
+    (x2, y2, w2, h2) = box2
+
+    a1 = w1 * h1
+    a2 = w2 * h2
+
+    xx1 = max(x1, x2)
+    yy1 = max(y1, y2)
+    xx2 = min(x1 + w1, x2 + w2)
+    yy2 = min(y1 + h1, y2 + h2)
+
+    w = max(0, xx2 - xx1)
+    h = max(0, yy2 - yy1)
+
+    i = w * h
+    u = a1 + a2 - i
+    return i / u
+
+
+def nms(boxes, confidences, thresh1, thresh2):
+    box_confs = []
+    for i in range(len(boxes)):
+        confidence = confidences[i]
+        if confidence < thresh1:
+            continue
+        box_confs.append((i, confidence))
+
+    box_confs = sorted(box_confs, key=lambda box_conf: box_conf[1], reverse=True)
+    indices = []
+    while len(box_confs) > 0:
+        box_conf = box_confs.pop(0)
+        indices.append(box_conf[0])
+        rs = []
+        for i, box_conf1 in enumerate(box_confs):
+            r = iou(boxes[box_conf[0]], boxes[box_conf1[0]])
+            if r < thresh2:
+                continue
+            rs.append(i)
+        for i in reversed(rs):
+            box_confs.pop(i)
+    return indices
+
+
 net = cv2.dnn.readNetFromDarknet("yolov3.cfg", "yolov3.weights")
 ln = net.getLayerNames()
 ln = [ln[i - 1] for i in net.getUnconnectedOutLayers()]
@@ -65,31 +109,11 @@ net.setInput(blob)
 outputs = net.forward(ln)
 
 h, w = img.shape[:2]
-
 # class_ids, confidences, boxes = extract(outputs, w, h)
-# for i in range(len(boxes)):
-#     box = boxes[i]
-#     confidence = confidences[i]
-#     class_id = class_ids[i]
-#     if confidence < 0.5:
-#         continue
-#     (x, y, w, h) = box
-#     cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 0), 1)
-#     cv2.putText(img, str(class_id), (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
-
 class_ids, confidences, boxes = extract_vector(outputs, w, h)
-# for i in range(len(boxes)):
-#     box = boxes[i]
-#     confidence = confidences[i]
-#     class_id = class_ids[i]
-#     if confidence < 0.5:
-#         continue
-#     (x, y, w, h) = box
-#     cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 0), 1)
-#     cv2.putText(img, str(class_id), (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
 
-
-indices = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.4)
+# indices = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.4)
+indices = nms(boxes, confidences, 0.5, 0.4)
 for i in indices:
     box = boxes[i]
     class_id = class_ids[i]
