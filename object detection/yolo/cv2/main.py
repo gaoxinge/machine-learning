@@ -8,7 +8,7 @@ img = cv2.imread("dog.jpg")
 class_ids, scores, boxes = model.detect(img, 0.5, 0.4)
 for (class_id, score, box) in zip(class_ids, scores, boxes):
     cv2.rectangle(img, box, (0, 0, 0), 1)
-    cv2.putText(img, str(class_id), (box[0], box[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
+    cv2.putText(img, str(class_id), (box[0], box[1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
 
 cv2.imshow("", img)
 cv2.waitKey(0)
