@@ -17,6 +17,7 @@ This repository provides codes for the essay of machine learning.
 - [AE](./AE)
 - [GAN](./GAN)
 - [stable diffusion](./stable%20diffusion)
+- [object detection](./object%20detection)
 - [NLP](./NLP)
 - 向量搜索
 - [用户标签](./用户标签)
