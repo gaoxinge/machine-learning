@@ -12,6 +12,7 @@ This repository provides codes for the essay of machine learning.
 - [d2l](./d2l)
 - [CNN](./CNN)
 - [RNN](./RNN)
+- [CV](./CV)
 - [visualization](./visualization)
 - [nerual style](./neural%20style)
 - [AE](./AE)
