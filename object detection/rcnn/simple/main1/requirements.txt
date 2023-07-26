@@ -1,0 +1,13 @@
+torch
+torchvision
+click>=8.0
+pillow==8.2.0
+scipy==1.7.1
+numpy==1.22
+requests==2.26.0
+tqdm==4.62.2
+ninja==1.10.2
+matplotlib==3.4.2
+imageio==2.9.0
+ftfy
+regex
