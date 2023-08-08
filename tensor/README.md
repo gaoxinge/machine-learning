@@ -10,11 +10,3 @@
 
 - [tensorflow/graphics](https://github.com/tensorflow/graphics)
 - [facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d)
-
-## intermediate representation
-
-### mlir
-
-- [The LLVM Compiler Infrastructure: 2019 European LLVM Developers Meeting](https://llvm.org/devmtg/2019-04/talks.html)
-- [MLIR: Multi-Level Intermediate Representation Compiler Infrastructure](https://llvm.org/devmtg/2019-04/slides/Keynote-ShpeismanLattner-MLIR.pdf)
-- [MLIR: A new intermediate representation and compiler framework](https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d)
