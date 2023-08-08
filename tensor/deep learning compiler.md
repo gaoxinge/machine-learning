@@ -4,6 +4,11 @@
 
 - [merrymercy/awesome-tensor-compilers](https://github.com/merrymercy/awesome-tensor-compilers)
 
+## paper
+
+- [Machine Learning in Compiler Optimisation](https://arxiv.org/pdf/1805.03441.pdf)
+- [Deep Learning Compilers](https://ucbrise.github.io/cs294-ai-sys-sp19/assets/lectures/lec12/dl-compilers.pdf)
+
 ## open source
 
 ### server
