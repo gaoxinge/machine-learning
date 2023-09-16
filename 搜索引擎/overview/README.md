@@ -1,5 +1,7 @@
 ## 系统
 
+![](//www.plantuml.com/plantuml/png/PPBDIWCn58NtUOfBzzMz5Eahk70jiHF6OfssIKOK4SHDkx4_LaMXcof2mVeZ-8CLVHgJwRo5cRaJI7JLvdpdvfuSfYeavJBUQH3EQf96OOD1AJcRwkvx2QY0M33kehMOyNrOZmB6XT62UXJcldRiklJDKV9odGF1AAzjmG41S0qN7JsUwS7OsYJRanlezPrgC4mxVSUvQrYJ5ruWXzxUtgcQzt5laqi7wVCdVVAGWO1A-ZTEqfqjhkvmhbKF6FSn3glvg6GlsAI2_NlHp-URkhzKnzDbzVYnU9xW0MyraMd8lBGj8t0QRHEIbGoLSdargx4Tuz-Y3Fp99NmJ1eJoaX5ib1L8Hz-wT-j1t6bOyZLC9w-aE2Dq-tQ1No-n2w2IGnlPwZY3kQei2intz0i0)
+
 ### 爬虫
 
 ```python
@@ -18,16 +20,6 @@ while len(qs) > 0:
 - 关键词向量化
 - 内容向量化
 - 用户向量化
-
-### 数据库
-
-- 功能
-  - 存放链接
-
-### 文件系统
-
-- 功能
-  - 存放html
 
 ### 文本搜索引擎
 
