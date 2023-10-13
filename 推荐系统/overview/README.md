@@ -1,30 +1,40 @@
-## 系统
-
-- 推荐: slowTopK: User -> List[Item]
-  - 召回: faskTopK: User -> List[Item]
-  - 排序: sort: (User, List[Item]) -> List[Item]
-    - 生成topK
-
 ## 算法
 
-### 协同过滤
+### 关系
 
-- 基于用户
-- 基于item
+- user-item
+- knowledge graph
+- GNN
+
+### 路径
+
+- u2i
+- u2u2i
+- u2i2i
+- u2tag2i
 
 ### embedding
 
-- 向量化
-  - 评分卡
-  - one hot
-  - word2vec
-  - item2vec
-  - MF
-  - FM
-- 向量搜索
+- id
+- 评分卡
+- one hot
+- word2vec
+- item2vec
+- MF
+- FM
+- 双塔
 
-### 点击率预测
+### 指标
 
-- 在线学习: 强化学习
-- 离线学习: 监督学习
+- 相似度 / 距离: 向量召回
+- 点击率
+
+### 工程
+
+- 阶段
+  - 召回
+  - 排序
+- 反馈
+  - 在线学习: 强化学习
+  - 离线学习: 监督学习
 
