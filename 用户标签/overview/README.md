@@ -1,7 +1,3 @@
-## 通用方案
+## 系统
 
-![](1.png)
-
-## 通用代码
-
-- 代码，数据和数据库设计与业务和产品相关性较高，难以抽象
+![](http://www.plantuml.com/plantuml/png/TP7DIiD04CVl-nHBJthe2tYGlacPj9jIyX79RWuYWfxKOYMW7XIbzY0K_53mO4b1NwRvy2ri9onajvtBaCpyTlxpd-b81R5A0f_5egSW7FY2jvRp-tmqBRyMvMBIuY2vayXXAAJioaEfHC2F6ESDlhoP5UVVI2PIn6OnlnYNBn_RsdJTE0gLHQTN5Er0pnDXt-GzS3r07B_CekiFGm-B-CMEMTDbyNHMllqqN2eO40QhtxHAdn6A3aGCAY9C6br8VpQehTa3tduMu_SykqQy3meSa8AnzOvvkxrFx7DhrkODMIBFyP7MtUD_ZtV5oMazrKvzytoI5G-lTMgNxBDkKvy78_xN5y5eoUIZcIrJJI-NyqpBC7q3VBYnRpjXGThqPigOWn5x9BfHrWcyimf9uFy3)
