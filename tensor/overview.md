@@ -49,6 +49,14 @@ flowchart TD
 - [pymc-devs/pymc](https://github.com/pymc-devs/pymc)
 - [CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 
+### python
+
+- [numba/numba](https://github.com/numba/numba)
+- [google-deepmind/s6](https://github.com/google-deepmind/s6)
+- [exaloop/codon](https://github.com/exaloop/codon)
+- [bytedance/matxscript](https://github.com/bytedance/matxscript)
+- [Pylir/Pylir](https://github.com/Pylir/Pylir)
+
 ### deep learning
 
 - [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
