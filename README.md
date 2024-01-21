@@ -37,6 +37,5 @@ This repository provides codes for the essay of machine learning.
 - [tensorrt](./tensorrt)
 - [onnx](./onnx)
 - [tvm](./tvm)
-- [mlir](./mlir)
 - [tensor](./tensor)
 - [dataframe](./dataframe)
