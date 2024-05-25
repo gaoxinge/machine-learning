@@ -19,7 +19,7 @@ This repository provides codes for the essay of machine learning.
 - [GAN](./GAN)
 - [stable diffusion](./stable%20diffusion)
 - [object detection](./object%20detection)
-- [ocr](./ocr)
+- [OCR](./OCR)
 - [NLP](./NLP)
 - [chatgpt](./chatgpt)
 - 向量搜索

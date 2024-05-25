@@ -2,3 +2,4 @@
 
 - [tf-idf](./tf-idf)
 - [n-gram](./n-gram)
+- [hmm](./hmm)
