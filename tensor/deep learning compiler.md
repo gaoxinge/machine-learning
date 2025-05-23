@@ -17,6 +17,8 @@
 - [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino)
 - [facebookresearch/TensorComprehensions](https://github.com/facebookresearch/TensorComprehensions)
 - [facebookincubator/AITemplate](https://github.com/facebookincubator/AITemplate)
+- [tile-ai/tilelang](https://github.com/tile-ai/tilelang)
+  - [TileLang: 80行Python kernel代码实现FlashMLA 95%的性能](https://zhuanlan.zhihu.com/p/27965825936)
 
 ### mobile
 
