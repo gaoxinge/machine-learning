@@ -21,7 +21,7 @@ This repository provides codes for the essay of machine learning.
 - [object detection](./object%20detection)
 - [OCR](./OCR)
 - [NLP](./NLP)
-- [chatgpt](./chatgpt)
+- [LLM](./LLM)
 - 向量搜索
 - [用户标签](./用户标签)
 - [搜索引擎](./搜索引擎)
