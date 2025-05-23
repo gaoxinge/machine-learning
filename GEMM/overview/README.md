@@ -1,5 +1,6 @@
 ## reference
 
+- [矩阵乘法的算法演进](https://zhuanlan.zhihu.com/p/3947249688)
 - [卷积：从推理引擎优化和硬件优化角度理解](https://zhuanlan.zhihu.com/p/616138047)
 - [通用矩阵乘（GEMM）优化与卷积计算](https://zhuanlan.zhihu.com/p/66958390)
 - [MegEngine Inference 卷积优化之 Im2col 和 winograd 优化](https://zhuanlan.zhihu.com/p/532187602)
