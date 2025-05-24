@@ -2,6 +2,7 @@
 
 ## inference
 
+- [Maknee/minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp)
 - [MegEngine/InferLLM](https://github.com/MegEngine/InferLLM)
 - [ztxz16/fastllm](https://github.com/ztxz16/fastllm)
 
@@ -19,6 +20,8 @@
 - [private-gpt](https://github.com/zylon-ai/private-gpt)
 - [localGPT](https://github.com/PromtEngineer/localGPT)
 - [docker-llama2-chat](https://github.com/soulteary/docker-llama2-chat)
+- [llava-cpp-server](https://github.com/trzy/llava-cpp-server)
+- [Llama-2-Open-Source-LLM-CPU-Inference](https://github.com/kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference)
 
 ## web
 
