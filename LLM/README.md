@@ -3,6 +3,7 @@
 ## inference
 
 - [Maknee/minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp)
+- [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp)
 - [MegEngine/InferLLM](https://github.com/MegEngine/InferLLM)
 - [ztxz16/fastllm](https://github.com/ztxz16/fastllm)
 
