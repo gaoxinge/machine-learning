@@ -39,3 +39,4 @@ This repository provides codes for the essay of machine learning.
 - [tvm](./tvm)
 - [tensor](./tensor)
 - [dataframe](./dataframe)
+- [paper](./paper)
