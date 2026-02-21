@@ -4,7 +4,7 @@ from anthropic import Anthropic
 
 client = Anthropic(
     base_url="https://antchat.alipay.com/api/anthropic",
-    api_key="z44o9ZTf5Nlubm1OyQA6B2DMuvPjn1Hm"
+    api_key="${API-KEY}"
 )
 MODEL = "Kimi-K2.5"
 SYSTEM = f"You are a coding agent at {os.getcwd()}. Use bash to solve tasks. Act, don't explain."
