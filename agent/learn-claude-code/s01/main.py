@@ -42,7 +42,6 @@ def agent_loop(messages: list):
             tools=TOOLS,
             max_tokens=8000
         )
-        print(response)
         messages.append({"role": "assistant", "content": response.content})
         if response.stop_reason != "tool_use":
             return
