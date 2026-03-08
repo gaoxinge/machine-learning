@@ -36,4 +36,5 @@
 
 ## agent
 
+- [1rgs/nanocode](https://github.com/1rgs/nanocode)
 - [learn-claude-code](./agent/learn-claude-code)
