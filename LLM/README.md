@@ -38,3 +38,9 @@
 
 - [1rgs/nanocode](https://github.com/1rgs/nanocode)
 - [learn-claude-code](./agent/learn-claude-code)
+
+## paper
+
+### agent
+
+- [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
