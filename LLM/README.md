@@ -44,3 +44,5 @@
 ### agent
 
 - [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+- [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916)
+- [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171)
