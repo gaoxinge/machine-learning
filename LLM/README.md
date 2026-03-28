@@ -50,3 +50,4 @@
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
 - [Executable Code Actions Elicit Better LLM Agents](https://openreview.net/forum?id=jJ9BoXAfFa)
 - [Tool Learning with Large Language Models: A Survey](https://arxiv.org/abs/2405.17935)
+- [Survey on AI Memory: Theories, Taxonomies, Evaluations, and Emerging Trends](https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf)
