@@ -41,6 +41,7 @@
 
 ## paper
 
+- [Show Your Work: Scratchpads for Intermediate Computation with Language Models](https://arxiv.org/abs/2112.00114)
 - [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
 - [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050)
 - [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
