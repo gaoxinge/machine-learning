@@ -54,4 +54,5 @@
 - [Tool Learning with Large Language Models: A Survey](https://arxiv.org/abs/2405.17935)
 - [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)
 - [ProAgent: From Robotic Process Automation to Agentic Process Automation](https://arxiv.org/abs/2311.10751)
+- [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)
 - [Survey on AI Memory: Theories, Taxonomies, Evaluations, and Emerging Trends](https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf)
