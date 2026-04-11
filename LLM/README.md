@@ -62,4 +62,5 @@
 - [ChatDev: Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)
 - [Scaling Large Language Model-based Multi-Agent Collaboration](https://arxiv.org/abs/2406.07155)
 - [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)
+- [Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427)
 - [Survey on AI Memory: Theories, Taxonomies, Evaluations, and Emerging Trends](https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf)
