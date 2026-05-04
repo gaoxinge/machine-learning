@@ -1,6 +1,7 @@
 # NLP
 
 - [nlp library](./nlp%20library)
+- one-hot vs no vs n-hot
 - term presence
 - term count
 - term frequency
