@@ -31,6 +31,7 @@ This repository provides codes for the essay of machine learning.
 - [tensorflow](./tensorflow)
 - [torch](./torch)
 - [darknet](./darknet)
+- [ggml](./ggml)
 - [tensorrt](./tensorrt)
 - [onnx](./onnx)
 - [tvm](./tvm)
