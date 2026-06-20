@@ -9,9 +9,11 @@
 
 ## serving
 
+- [vllm-project/vllm](https://github.com/vllm-project/vllm)
+- [sgl-project/sglang](https://github.com/sgl-project/sglang)
 - [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference)
 - [ModelTC/lightllm](https://github.com/ModelTC/lightllm)
-
+- [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 
 ## local
 
