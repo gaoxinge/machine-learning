@@ -9,11 +9,14 @@
 
 ## serving
 
+- [lmcache/lmcache](https://github.com/lmcache/lmcache)
 - [vllm-project/vllm](https://github.com/vllm-project/vllm)
 - [sgl-project/sglang](https://github.com/sgl-project/sglang)
 - [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference)
 - [ModelTC/lightllm](https://github.com/ModelTC/lightllm)
+- [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake)
 - [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
+- [ai-dynamo/dynamo](https://github.com/ai-dynamo/dynamo)
 
 ## local
 
