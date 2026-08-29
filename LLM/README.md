@@ -73,5 +73,6 @@
 ## paper
 
 - GLM
+  - [GLM-5.1](https://z.ai/blog/glm-5.1)
   - [GLM-5.3](https://z.ai/blog/glm-5.3)
   - [GLM-5.3-flash](https://z.ai/blog/glm-5.3-flash)
