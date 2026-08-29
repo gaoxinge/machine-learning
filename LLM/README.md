@@ -69,3 +69,9 @@
 - [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)
 - [Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427)
 - [Survey on AI Memory: Theories, Taxonomies, Evaluations, and Emerging Trends](https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf)
+
+## paper
+
+- GLM
+  - [GLM-5.3](https://z.ai/blog/glm-5.3)
+  - [GLM-5.3-flash](https://z.ai/blog/glm-5.3-flash)
