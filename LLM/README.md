@@ -12,6 +12,8 @@
 - [lmcache/lmcache](https://github.com/lmcache/lmcache)
 - [vllm-project/vllm](https://github.com/vllm-project/vllm)
 - [sgl-project/sglang](https://github.com/sgl-project/sglang)
+- [geeeekExplorer/nano-vllm](https://github.com/geeeekExplorer/nano-vllm)
+- [sgl-project/mini-sglang](https://github.com/sgl-project/mini-sglang)
 - [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference)
 - [ModelTC/lightllm](https://github.com/ModelTC/lightllm)
 - [kvcache-ai/Mooncake](https://github.com/kvcache-ai/Mooncake)
